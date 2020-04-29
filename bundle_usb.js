@@ -3876,7 +3876,7 @@ exports.getFileName = function getFileName(calling_file) {
 exports.getRoot = function getRoot(file) {
   var dir = dirname(file),
     prev;
-    var  existees =
+    function  existees (path) { 
     (fs.accessSync &&
       function(path) {
         try {
@@ -3887,7 +3887,7 @@ exports.getRoot = function getRoot(file) {
         return true;
       }) ||
     fs.existsSync ||
-    path.existsSync;
+    path.existsSync};
   while (true) {
     if (dir === '.') {
       // Avoids an infinite loop in rare cases, like the REPL
