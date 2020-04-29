@@ -1,0 +1,20 @@
+
+<html>
+<body>
+    <button id="usb">Connect to a USB Device</button>
+    <script>
+        document.getElementById('usb').addEventListener('click',function(){
+            if (navigator.usb) {
+                navigator.usb.requestDevice({
+                    filters: []
+                })
+                .then(function(device){
+                    document.body.innerHTML +=
+                        device.manufacturerName + ', ' +
+                        device.productName;
+                });
+            }
+        });
+    </script>
+</body>
+</html>
