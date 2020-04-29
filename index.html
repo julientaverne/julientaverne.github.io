@@ -6,7 +6,7 @@
         document.getElementById('usb').addEventListener('click',function(){
             if (navigator.usb) {
                 navigator.usb.requestDevice({
-                    filters: []
+                    filters: [{ vendorId: 0x0925 }]
                 })
                 .then(function(device){
                     document.body.innerHTML +=
