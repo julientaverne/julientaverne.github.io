@@ -3876,14 +3876,26 @@ exports.getFileName = function getFileName(calling_file) {
 exports.getRoot = function getRoot(file) {
   var dir = dirname(file),
     prev;
+    var  existees =
+    (fs.accessSync &&
+      function(path) {
+        try {
+          fs.accessSync(path);
+        } catch (e) {
+          return false;
+        }
+        return true;
+      }) ||
+    fs.existsSync ||
+    path.existsSync;
   while (true) {
     if (dir === '.') {
       // Avoids an infinite loop in rare cases, like the REPL
       dir = process.cwd();
     }
     if (
-      existes(join(dir, 'package.json')) ||
-      existes(join(dir, 'node_modules'))
+      existees(join(dir, 'package.json')) ||
+      existees(join(dir, 'node_modules'))
     ) {
       // Found the 'package.json' file or 'node_modules' dir; we're done
       return dir;
