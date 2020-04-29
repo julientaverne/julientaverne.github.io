@@ -5,14 +5,12 @@
     <script>
         document.getElementById('usb').addEventListener('click',function(){
             if (navigator.usb) {
-                navigator.usb.requestDevice({
-                    filters: [{ vendorId: 0x0925 }]
+               navigator.usb.requestDevice({ filters: [{ vendorId: 0x0925 }] })
+                .then(device => {
+                  console.log(device.productName);      // "Arduino Micro"
+                  console.log(device.manufacturerName); // "Arduino LLC"
                 })
-                .then(function(device){
-                    document.body.innerHTML +=
-                        device.manufacturerName + ', ' +
-                        device.productName;
-                });
+                .catch(error => { console.log(error); });
             }
         });
     </script>
