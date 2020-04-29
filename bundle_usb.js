@@ -3689,7 +3689,7 @@ var fs = require('fs'),
   fileURLToPath = require('file-uri-to-path'),
   join = path.join,
   dirname = path.dirname,
-  exists =
+  existes =
     (fs.accessSync &&
       function(path) {
         try {
@@ -3882,8 +3882,8 @@ exports.getRoot = function getRoot(file) {
       dir = process.cwd();
     }
     if (
-      exists(join(dir, 'package.json')) ||
-      exists(join(dir, 'node_modules'))
+      existes(join(dir, 'package.json')) ||
+      existes(join(dir, 'node_modules'))
     ) {
       // Found the 'package.json' file or 'node_modules' dir; we're done
       return dir;
