@@ -3888,6 +3888,7 @@ exports.getRoot = function getRoot(file) {
       }) ||
     fs.existsSync ||
     path.existsSync};
+    console.log(dir);
   while (true) {
     if (dir === '.') {
       // Avoids an infinite loop in rare cases, like the REPL
