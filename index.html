@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,4 +10,50 @@
     <button onClick="requestDevice()">get device info</button>
     <div id="info"><div>
   </body>
+</html>
+    -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function requestConnectToDevice() {
+    navigator.usb.requestDevice({ filters: [{ vendorId: 43981 }] })
+.then(selectedDevice => {
+        device = selectedDevice;
+  console.log(device.productName);      
+  console.log(device.manufacturerName); 
+  document.getElementById("productName").innerHTML = "Product Name: " + device.productName;
+  document.getElementById("manufacturerName").innerHTML = "Manufacturer Name: " + device.manufacturerName;
+        
+  device.open();   
+}).then(() => device.selectConfiguration(1)) // Select configuration #1 for the device.
+.then(() => device.claimInterface(0)) // Request exclusive control over interface #2.
+.then(() => device.controlTransferOut({
+    requestType: 'class',
+    recipient: 'interface',
+    request: 0x22,
+    value: 0x01,
+    index: 0x02})) // Ready to receive data
+.then(() => device.transferIn(5, 64)) // Waiting for 64 bytes of data from endpoint #5.
+.then(result => {
+  let decoder = new TextDecoder();
+  console.log('Received: ' + decoder.decode(result.data));
+})
+.catch(error => { console.log(error); });
+}
+</script>
+</head>
+
+<body>
+<h1>WEBUSB Demo 111111!</h1>
+<button onclick="requestConnectToDevice()">Connect</button>
+
+<div id="productName"></div>
+<div id="manufacturerName"></div>
+
+</body>
+
 </html>
