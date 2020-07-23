@@ -1,10 +1,18 @@
 
 function requestDevice() {
-  
+  /*
   navigator.usb.requestDevice({ filters: [{ }] })
     .then(showDevices)
     .catch(usbError)
+  */
   
+   navigator.hid.addEventListener('connect', async () => {
+  console.log('HID connected: ${device.productName}');
+});
+
+navigator.hid.addEventListener('disconnect', async () => {
+  console.log('HID disconnected: ${device.productName}');
+});
 
 }
 
@@ -33,13 +41,7 @@ requestButton.addEventListener('click', async () => {
 });
 
 
- navigator.hid.addEventListener('connect', async () => {
-  console.log('HID connected: ${device.productName}');
-});
 
-navigator.hid.addEventListener('disconnect', async () => {
-  console.log('HID disconnected: ${device.productName}');
-});
 
 
 var classes = {
