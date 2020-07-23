@@ -12,12 +12,17 @@ let requestButton = document.getElementById('request-hid-device');
 requestButton.addEventListener('click', async () => {
   let device;
   try {
-    device = await navigator.hid.requestDevice({ filters: [{
+    device = await navigator.hid.requestDevice(
+     /*
+      { filters: [{
         vendorId: 0xABCD,
         productId: 0x1234,
         usagePage: 0x0C,
         usage: 0x01
-    }]});
+    }]}
+    */
+      { filters: [{ }] }
+    );
   } catch (error) {
     console.log('No device was selected.');
   }
