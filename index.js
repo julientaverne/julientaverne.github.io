@@ -18,3 +18,4 @@ async function talkToArduino() {
   } catch (error) {
     document.getElementById('target').innerHTML = error;
   }
+}
