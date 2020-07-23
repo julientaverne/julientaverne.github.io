@@ -5,7 +5,13 @@ function requestDevice() {
     .then(showDevices)
     .catch(usbError)
   */
-  
+  document.addEventListener('DOMContentLoaded', async () => {
+  let devices = await navigator.hid.getDevices();
+  devices.forEach(device => {
+    console.log('HID: ${device.productName}');
+  });
+});
+  /*
    navigator.hid.addEventListener('connect', async () => {
   console.log('HID connected: ${device.productName}');
 });
@@ -13,6 +19,7 @@ function requestDevice() {
 navigator.hid.addEventListener('disconnect', async () => {
   console.log('HID disconnected: ${device.productName}');
 });
+*/
 
 }
 
