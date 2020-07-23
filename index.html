@@ -20,7 +20,7 @@
 <head>
 <script>
 function requestConnectToDevice() {
-    navigator.usb.requestDevice({ filters: [{ vendorId: 43981 }] })
+    navigator.usb.requestDevice({ filters: [{ vendorId: 2341 }] })
 .then(selectedDevice => {
         device = selectedDevice;
   console.log(device.productName);      
@@ -48,7 +48,7 @@ function requestConnectToDevice() {
 </head>
 
 <body>
-<h1>WEBUSB Demo 111111!</h1>
+<h1>WEBUSB Demo 22222!</h1>
 <button onclick="requestConnectToDevice()">Connect</button>
 
 <div id="productName"></div>
