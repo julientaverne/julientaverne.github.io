@@ -35,6 +35,7 @@ function showDevices(d) {
   info.innerHTML = `<ul>
     <li>${d.manufacturerName} ${d.productName}</li>
     <li>vendorId: 0x${d.vendorId.toString(16)}</li>
+    <li>vendorId JTA: ${d.vendorId}</li>
     <li>class: ${classes[d.deviceClass]}</li>
   </ul>`
 }
