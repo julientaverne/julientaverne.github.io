@@ -1,16 +1,33 @@
 
 function requestDevice() {
-  /*
+  
   navigator.usb.requestDevice({ filters: [{ }] })
     .then(showDevices)
     .catch(usbError)
-  */
- let devices = await navigator.hid.getDevices();
-  devices.forEach(device => {
-    console.log('HID: ${device.productName}');
-  });
+  
+
 }
 
+let requestButton = document.getElementById('request-hid-device');
+requestButton.addEventListener('click', async () => {
+  let device;
+  try {
+    device = await navigator.hid.requestDevice({ filters: [{
+        vendorId: 0xABCD,
+        productId: 0x1234,
+        usagePage: 0x0C,
+        usage: 0x01
+    }]});
+  } catch (error) {
+    console.log('No device was selected.');
+  }
+
+  if (device !== undefined) {
+    console.log('HID: ${device.productName}');
+  }
+});
+
+/*
  navigator.hid.addEventListener('connect', async () => {
   console.log('HID connected: ${device.productName}');
 });
@@ -18,6 +35,7 @@ function requestDevice() {
 navigator.hid.addEventListener('disconnect', async () => {
   console.log('HID disconnected: ${device.productName}');
 });
+*/
 
 var classes = {
   [0x00]: "Unknown",
