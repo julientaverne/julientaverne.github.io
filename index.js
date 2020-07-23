@@ -1,9 +1,23 @@
 
 function requestDevice() {
+  /*
   navigator.usb.requestDevice({ filters: [{ }] })
     .then(showDevices)
     .catch(usbError)
+  */
+ let devices = await navigator.hid.getDevices();
+  devices.forEach(device => {
+    console.log('HID: ${device.productName}');
+  });
 }
+
+ navigator.hid.addEventListener('connect', async () => {
+  console.log('HID connected: ${device.productName}');
+});
+
+navigator.hid.addEventListener('disconnect', async () => {
+  console.log('HID disconnected: ${device.productName}');
+});
 
 var classes = {
   [0x00]: "Unknown",
