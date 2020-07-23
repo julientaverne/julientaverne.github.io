@@ -24,15 +24,15 @@ requestButton.addEventListener('click', async () => {
       { filters: [{ }] }
     );
   } catch (error) {
-    console.log('No device was selected.');
+    console.log('No device was selected 2.');
   }
 
   if (device !== undefined) {
-    console.log('HID: ${device.productName}');
+    console.log('HID: ${device.productName} 2');
   }
 });
 
-/*
+
  navigator.hid.addEventListener('connect', async () => {
   console.log('HID connected: ${device.productName}');
 });
@@ -40,7 +40,7 @@ requestButton.addEventListener('click', async () => {
 navigator.hid.addEventListener('disconnect', async () => {
   console.log('HID disconnected: ${device.productName}');
 });
-*/
+
 
 var classes = {
   [0x00]: "Unknown",
