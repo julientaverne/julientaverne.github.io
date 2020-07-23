@@ -6,6 +6,7 @@ function requestDevice() {
     .catch(usbError)
   */
   document.addEventListener('DOMContentLoaded', async () => {
+    console.log("julien");
   let devices = await navigator.hid.getDevices();
   devices.forEach(device => {
     console.log('HID: ${device.productName}');
