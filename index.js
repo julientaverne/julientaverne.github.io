@@ -12,6 +12,9 @@ function requestDevice() {
     console.log('HID: ${device.productName}');
   });
 });
+  
+ 
+  
   /*
    navigator.hid.addEventListener('connect', async () => {
   console.log('HID connected: ${device.productName}');
@@ -23,6 +26,15 @@ navigator.hid.addEventListener('disconnect', async () => {
 */
 
 }
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+  });
+
+for( let i = 0; i < 1000000000; i++)
+{} // This synchronous script is going to delay parsing of the DOM,
+   // so the DOMContentLoaded event is going to launch later.
 
 let requestButton = document.getElementById('request-hid-device');
 requestButton.addEventListener('click', async () => {
