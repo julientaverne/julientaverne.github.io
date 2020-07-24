@@ -1,6 +1,7 @@
 document.getElementById('arduinoButton').addEventListener('click', function () {
-  if (navigator.usb) {
+  if (navigator.hid) {
     talkToArduino();
+    console.log('web HID not supported.');
   } else {
     console.log('WebUSB not supported.');
   }
@@ -8,7 +9,7 @@ document.getElementById('arduinoButton').addEventListener('click', function () {
 
 async function talkToArduino() {
   try {
-    navigator.usb.getDevices()
+    navigator.hid.getDevices()
     .then(devices => {
       console.log("Total devices: " + devices.length);
       devices.forEach(device => {
