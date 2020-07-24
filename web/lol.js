@@ -29,16 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
-	serial.getPorts().then(ports => {
-		if (ports.length == 0) {
-			device.textContent = 'No device found.';
-			main.classList.add('error');
-		} else {
-			device.textContent = 'Connecting...';
-			port = ports[0];
-			connect();
-		}
-	});
+	setInterval(() => {
+		serial.getPorts().then(ports => {
+			if (ports.length == 0) {
+				device.textContent = 'No device found.';
+				main.classList.add('error');
+			} else {
+				device.textContent = 'Connecting...';
+				port = ports[0];
+				connect();
+			}
+		});
+	}, 1000);
+	
 
 	function connect() {
 		port.connect().then(() => {
