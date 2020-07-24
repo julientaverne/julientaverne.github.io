@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
-	setInterval(() => {
+	
 		serial.getPorts().then(ports => {
 			if (ports.length == 0) {
 				device.textContent = 'No device found.';
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				connect();
 			}
 		});
-	}, 1000);
+	
 	
 
 	function connect() {
