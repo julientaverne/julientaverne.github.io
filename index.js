@@ -1,3 +1,4 @@
+/*
 document.getElementById('arduinoButton').addEventListener('click', function () {
   if (chrome.hid) {
     talkToArduino();
@@ -21,3 +22,27 @@ async function talkToArduino() {
     document.getElementById('target').innerHTML = "-->"+error;
   }
 }
+*/
+
+const consentButton = document.getElementById('consent-button');
+
+const deviceFilters = [{ }];
+
+consentButton.addEventListener('click', async () => {
+  let device;
+
+  let devices = await navigator.hid.getDevices();
+  devices.forEach(device => {
+    console.log('HID: ${device.productName}');
+  });
+  
+  /*
+  try {
+    const devices = await navigator.hid.requestDevice({ filters: deviceFilters });
+    device = devices[0];
+  } catch (error) {
+    console.warn('No device access granted', error);
+    return;
+  }
+  */
+});
