@@ -1,5 +1,5 @@
 document.getElementById('arduinoButton').addEventListener('click', function () {
-  if (navigator.hid) {
+  if (chrome.hid) {
     talkToArduino();
     console.log('web HID not supported.');
   } else {
@@ -8,8 +8,9 @@ document.getElementById('arduinoButton').addEventListener('click', function () {
 });
 
 async function talkToArduino() {
+  console.log("GO");
   try {
-    navigator.hid.getDevices()
+    chrome.hid.getDevices()
     .then(devices => {
       console.log("Total devices: " + devices.length);
       devices.forEach(device => {
@@ -17,6 +18,6 @@ async function talkToArduino() {
       });
     });
   } catch (error) {
-    document.getElementById('target').innerHTML = error;
+    document.getElementById('target').innerHTML = "-->"+error;
   }
 }
