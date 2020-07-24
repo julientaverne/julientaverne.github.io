@@ -1,6 +1,6 @@
 
 document.getElementById('butbut').addEventListener('click', function () {
-  if (chrome.usb) {
+  if (navigator.usb) {
     console.log('web USB supported.');
   } else {
     console.log('WebUSB not supported.');
