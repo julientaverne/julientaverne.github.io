@@ -1,0 +1,59 @@
+#logo {
+  margin-right: 18px;
+}
+
+.card-title {
+  background-color: rgba(105, 105, 105, 0.8);
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: 1.5rem;
+}
+img {
+  opacity: 0.7;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+#page-load {
+  width: 100%;
+  height: 250px;
+
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+#loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+#mainContent {
+  padding: 20px 10px;
+}
+#releasedate {
+  font-size: 1.2rem;
+}
+#modal1 {
+  max-width: 600px;
+}
+.heading-modal {
+  text-align: center;
+  width: 100%;
+}
+#main-loading {
+  height: 50vh;
+  width: 50vh;
+}
+#mainloadpage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
