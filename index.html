@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MovieBuzz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section id="header">
+      <div class="navbar-fixed">
+        <nav class="teal">
+          <div class="nav-wrapper">
+            <a href="#" id="logo" class="brand-logo right"
+              ><i class="material-icons">movie</i>MovieBuzz</a
+            >
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul id="nav-mobile" class="left hide-on-med-and-down ">
+              <li class="active">
+                <a href="#">Movies</a>
+              </li>
+              <li><a class="tvlink" href="tv.html">TV Shows</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Movies</a></li>
+        <li><a href="tv.html">Tv Shows</a></li>
+    </section>
+
+    <section id="mainContent">
+      <div class="row" id="cards">
+        <div id="mainloadpage">
+        <div class="preloader-wrapper big active loadicon">
+          <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="modalpopup">
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div id="modalcont" class="modal-content"></div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Close</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="constants.js"></script>
+    <script src="api.js"></script>
+    <script src="requests.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
