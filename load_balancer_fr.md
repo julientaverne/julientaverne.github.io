@@ -66,6 +66,96 @@ Nous sommes ravis de vous accompagner dans cette aventure éducative pour maîtr
 
 ## 3. Stratégies et Protocoles de Load Balancing
 - Round Robin
+![][round_robin.svg]
+ ```json
+direction: right
+
+customer_1: Client 1 {
+  shape: image
+  icon: https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg
+}
+
+customer_2: Client 2 {
+  shape: image
+  icon: https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg
+}
+
+customer_3: Client 3 {
+  shape: image
+  icon: https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg
+}
+
+cloud: Internet {
+  shape: image
+  icon: https://icons.terrastruct.com/essentials%2F140-internet.svg
+}
+
+load_balancer: Load Balancer {
+  shape: image
+  icon: https://icons.terrastruct.com/aws%2FNetworking%20&%20Content%20Delivery%2FElastic-Load-Balancing-ELB_Network-load-balancer_light-bg.svg
+}
+
+server_1: Serveur 1 {
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
+}
+
+server_2: Serveur 2 {
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
+}
+
+server_3: Serveur 3 {
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
+}
+
+server_4: Serveur 4 {
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
+}
+
+customer_1 -> cloud: {
+  style.animated: true
+}
+
+customer_2 -> cloud: {
+  style.animated: true
+}
+
+customer_3 -> cloud: {
+  style.animated: true
+}
+
+cloud -> load_balancer: {
+  style.animated: true
+}
+
+load_balancer -> server_1: 50% {
+  style.animated: true
+  style.stroke-width: 10
+  style.font-size: 75
+}
+
+load_balancer -> server_2: 25% {
+  style.animated: true
+  style.stroke-width: 6
+  style.font-size: 50
+}
+
+load_balancer -> server_3: 10% {
+  style.animated: true
+  style.stroke-width: 4
+  style.font-size: 25
+}
+
+load_balancer -> server_4: 15% {
+  style.animated: true
+  style.stroke-width: 4
+  style.font-size: 25
+}
+
+```
 - Least Connections
 - IP Hash
 - Sticky Sessions
