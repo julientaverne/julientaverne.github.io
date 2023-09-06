@@ -1,4 +1,4 @@
-# Plan de Livre : "Maîtriser le Load Balancer dans le Cloud : Un Guide Complet"
+# Maîtriser le Load Balancer dans le Cloud : Un Guide Complet
 
 ## Introduction
 - Présentation du sujet   
