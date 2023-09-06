@@ -65,9 +65,9 @@ Nous sommes ravis de vous accompagner dans cette aventure éducative pour maîtr
 - Tests et vérifications
 
 ## 3. Stratégies et Protocoles de Load Balancing
-- Round Robin
-![][round_robin.svg]
- ```json
+- Round Robin   
+![round_robin](./round_robin.svg)
+ ```html
 direction: right
 
 customer_1: Client 1 {
