@@ -7,7 +7,6 @@ Ce guide est conçu pour vous fournir toutes les connaissances nécessaires pour
 L'objectif est simple : vous donner les outils et les connaissances pour configurer, gérer et optimiser un Load Balancer dans le cloud. Vous apprendrez non seulement comment il fonctionne, mais aussi comment il peut être utilisé pour améliorer la performance, la disponibilité et la sécurité de vos applications et services.   
 Alors, êtes-vous prêt à devenir un maître du Load Balancer dans le cloud ? Plongeons dans ce sujet passionnant et découvrons ensemble comment tirer le meilleur parti de cette technologie incroyable.
 
-
 - Importance du load balancing dans le cloud
 - Objectifs du livre
 - Public cible
@@ -67,4 +66,3 @@ Alors, êtes-vous prêt à devenir un maître du Load Balancer dans le cloud ? P
   - Quelles sont les tendances futures pour les Load Balancers dans le cloud ?
   - Comment optimiser les coûts associés à l'utilisation de Load Balancers ?
 
-Ce plan enrichi devrait offrir un guide complet pour comprendre et maîtriser le composant Load Balancer d'un provider cloud. Il est conçu pour des professionnels ayant une expérience préalable en administration système, en gestion de serveurs et en cloud computing.
