@@ -260,48 +260,37 @@ Alors, si vous cherchez une méthode de load balancing simple mais efficace pour
 <h2 id="4fonctionnalitsavancesetcontrle">4. Fonctionnalités Avancées et Contrôle</h2>
 
 <ul>
-<li>SSL/TLS Termination</li>
-	Prérequis
-Un compte cloud (AWS, Azure, Google Cloud, etc.)
-Un domaine et un certificat SSL/TLS pour ce domaine
-Connaissance de base des commandes shell
-Étapes
-1. Connectez-vous à votre console cloud
-Ouvrez la console de votre fournisseur de services cloud et naviguez jusqu'à la section des Load Balancers.
+<li>SSL/TLS Termination
+<h1 id="tutoriel-mise-en-place-de-ssl-tls-termination-sur-un-load-balancer">Tutoriel : Mise en Place de SSL/TLS Termination sur un Load Balancer</h1>
+<h2 id="pr-requis">Prérequis</h2>
+<ul>
+<li>Un compte cloud (AWS, Azure, Google Cloud, etc.)</li>
+<li>Un domaine et un certificat SSL/TLS pour ce domaine</li>
+<li>Connaissance de base des commandes shell</li>
+</ul>
+<h2 id="-tapes">Étapes</h2>
+<h3 id="1-connectez-vous-votre-console-cloud">1. Connectez-vous à votre console cloud</h3>
+<p>Ouvrez la console de votre fournisseur de services cloud et naviguez jusqu&#39;à la section des Load Balancers.</p>
+<h3 id="2-cr-ez-un-nouveau-load-balancer">2. Créez un nouveau Load Balancer</h3>
+<p>Suivez les instructions pour créer un nouveau Load Balancer. Assurez-vous de sélectionner un type qui supporte la SSL Termination, comme un &quot;Application Load Balancer&quot; sur AWS.</p>
+<h3 id="3-configurez-les-param-tres-de-base">3. Configurez les paramètres de base</h3>
+<p>Définissez les paramètres de base comme le VPC, les sous-réseaux, etc., selon vos besoins.</p>
+<h3 id="4-ajoutez-des-couteurs-pour-https">4. Ajoutez des écouteurs pour HTTPS</h3>
+<p>Dans la section des écouteurs, ajoutez un nouvel écouteur pour le protocole HTTPS sur le port 443.</p>
+<h3 id="5-t-l-chargez-et-installez-votre-certificat-ssl">5. Téléchargez et installez votre certificat SSL</h3>
+<p>Téléchargez votre certificat SSL depuis votre fournisseur et installez-le dans la section des certificats SSL de votre Load Balancer.</p>
+<h3 id="6-associez-le-certificat-l-couteur-https">6. Associez le certificat à l&#39;écouteur HTTPS</h3>
+<p>Dans la configuration de l&#39;écouteur HTTPS, sélectionnez le certificat que vous venez d&#39;ajouter.</p>
+<h3 id="7-v-rifiez-et-lancez-le-load-balancer">7. Vérifiez et lancez le Load Balancer</h3>
+<p>Revoyez vos configurations et lancez le Load Balancer.</p>
+<h3 id="8-testez-la-ssl-termination">8. Testez la SSL Termination</h3>
+<p>Accédez à votre domaine en utilisant HTTPS et vérifiez que la SSL Termination fonctionne correctement.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Vous avez maintenant mis en place la SSL/TLS Termination sur votre Load Balancer. Cette fonctionnalité vous permet de décrypter le trafic HTTPS au niveau du Load Balancer, ce qui libère vos serveurs backend de cette tâche et améliore les performances.</p>
 
-2. Créez un nouveau Load Balancer
-Suivez les instructions pour créer un nouveau Load Balancer. Assurez-vous de sélectionner un type qui supporte la SSL Termination, comme un "Application Load Balancer" sur AWS.
 
-3. Configurez les paramètres de base
-Définissez les paramètres de base comme le VPC, les sous-réseaux, etc., selon vos besoins.
-
-4. Ajoutez des écouteurs pour HTTPS
-Dans la section des écouteurs, ajoutez un nouvel écouteur pour le protocole HTTPS sur le port 443.
-
-bash
-Copy code
-# Exemple AWS CLI
-aws elbv2 create-listener --load-balancer-arn [LoadBalancerARN] --protocol HTTPS --port 443 --default-actions Type=forward,TargetGroupArn=[TargetGroupARN]
-5. Téléchargez et installez votre certificat SSL
-Téléchargez votre certificat SSL depuis votre fournisseur et installez-le dans la section des certificats SSL de votre Load Balancer.
-
-bash
-Copy code
-# Exemple AWS CLI
-aws acm import-certificate --certificate file://my-certificate.pem --private-key file://my-private-key.pem --certificate-chain file://my-certificate-chain.pem
-6. Associez le certificat à l'écouteur HTTPS
-Dans la configuration de l'écouteur HTTPS, sélectionnez le certificat que vous venez d'ajouter.
-
-7. Vérifiez et lancez le Load Balancer
-Revoyez vos configurations et lancez le Load Balancer.
-
-8. Testez la SSL Termination
-Accédez à votre domaine en utilisant HTTPS et vérifiez que la SSL Termination fonctionne correctement.
-
-Conclusion
-Vous avez maintenant mis en place la SSL/TLS Termination sur votre Load Balancer. Cette fonctionnalité vous permet de décrypter le trafic HTTPS au niveau du Load Balancer, ce qui libère vos serveurs backend de cette tâche et améliore les performances.
-
-<li>Health Checks pour la détection de l'indisponibilité des serveurs</li>
+</li>
+	<li>Health Checks pour la détection de l'indisponibilité des serveurs</li>
 
 <li>Session Persistence</li>
 
