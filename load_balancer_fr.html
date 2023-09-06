@@ -243,96 +243,92 @@ Alors, si vous cherchez une méthode de load balancing simple mais efficace pour
 
 	
 	<code>
-```html
-direction: right</li>
-</ul>
+direction: right
 
-<p>customer<em>1: Client 1 {
+customer_1: Client 1 {
   shape: image
-  icon: https://icons.terrastruct.com/aws%2F</em>General%2FClient_light-bg.svg
-}</p>
+  icon: https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg
+}
 
-<p>customer<em>2: Client 2 {
+customer_2: Client 2 {
   shape: image
-  icon: https://icons.terrastruct.com/aws%2F</em>General%2FClient_light-bg.svg
-}</p>
+  icon: https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg
+}
 
-<p>customer<em>3: Client 3 {
+customer_3: Client 3 {
   shape: image
-  icon: https://icons.terrastruct.com/aws%2F</em>General%2FClient_light-bg.svg
-}</p>
+  icon: https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg
+}
 
-<p>cloud: Internet {
+cloud: Internet {
   shape: image
   icon: https://icons.terrastruct.com/essentials%2F140-internet.svg
-}</p>
+}
 
-<p>load<em>balancer: Load Balancer {
+load_balancer: Load Balancer {
   shape: image
-  icon: https://icons.terrastruct.com/aws%2FNetworking%20&amp;%20Content%20Delivery%2FElastic-Load-Balancing-ELB</em>Network-load-balancer_light-bg.svg
-}</p>
+  icon: https://icons.terrastruct.com/aws%2FNetworking%20&%20Content%20Delivery%2FElastic-Load-Balancing-ELB_Network-load-balancer_light-bg.svg
+}
 
-<p>server_1: Serveur 1 {
-  shape: image
-  icon: https://icons.terrastruct.com/tech%2Fservers.svg
-}</p>
-
-<p>server_2: Serveur 2 {
+server_1: Serveur 1 {
   shape: image
   icon: https://icons.terrastruct.com/tech%2Fservers.svg
-}</p>
+}
 
-<p>server_3: Serveur 3 {
+server_2: Serveur 2 {
   shape: image
   icon: https://icons.terrastruct.com/tech%2Fservers.svg
-}</p>
+}
 
-<p>server_4: Serveur 4 {
+server_3: Serveur 3 {
   shape: image
   icon: https://icons.terrastruct.com/tech%2Fservers.svg
-}</p>
+}
 
-<p>customer_1 -> cloud: {
+server_4: Serveur 4 {
+  shape: image
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
+}
+
+customer_1 -> cloud: {
   style.animated: true
-}</p>
+}
 
-<p>customer_2 -> cloud: {
+customer_2 -> cloud: {
   style.animated: true
-}</p>
+}
 
-<p>customer_3 -> cloud: {
+customer_3 -> cloud: {
   style.animated: true
-}</p>
+}
 
-<p>cloud -> load_balancer: {
+cloud -> load_balancer: {
   style.animated: true
-}</p>
+}
 
-<p>load<em>balancer -> server</em>1: 50% {
+load_balancer -> server_1: 50% {
   style.animated: true
   style.stroke-width: 10
   style.font-size: 75
-}</p>
+}
 
-<p>load<em>balancer -> server</em>2: 25% {
+load_balancer -> server_2: 25% {
   style.animated: true
   style.stroke-width: 6
   style.font-size: 50
-}</p>
+}
 
-<p>load<em>balancer -> server</em>3: 10% {
+load_balancer -> server_3: 10% {
   style.animated: true
   style.stroke-width: 4
   style.font-size: 25
-}</p>
+}
 
-<p>load<em>balancer -> server</em>4: 15% {
+load_balancer -> server_4: 15% {
   style.animated: true
   style.stroke-width: 4
   style.font-size: 25
-}</p>
-
-<p>```</p>
+}
 
 </code>
 
