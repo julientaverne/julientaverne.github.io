@@ -1,175 +1,256 @@
-<!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en">
-<head>
-</head>
-<body>
-<h1 id="ma-triser-le-load-balancer-dans-le-cloud-un-guide-complet">Maîtriser le Load Balancer dans le Cloud : Un Guide Complet</h1>
+<h1 id="matriserleloadbalancerdanslecloudunguidecomplet">Maîtriser le Load Balancer dans le Cloud : Un Guide Complet</h1>
+
 <h2 id="introduction">Introduction</h2>
-<h4 id="pr-sentation-du-sujet">Présentation du sujet</h4>
-<p>  Bienvenue dans ce guide complet sur la maîtrise du Load Balancer dans le cloud, un composant essentiel pour toute architecture moderne. Le Load Balancer, ou équilibreur de charge en français, est un outil puissant qui permet de distribuer efficacement le trafic réseau ou les demandes d&#39;applications sur plusieurs serveurs. Dans un monde où la disponibilité et la fiabilité sont de la plus haute importance, comprendre comment configurer et utiliser un Load Balancer dans un environnement cloud est une compétence inestimable.<br>Ce guide est conçu pour vous fournir toutes les connaissances nécessaires pour devenir un expert en Load Balancer. Nous aborderons des sujets allant de la configuration de base aux fonctionnalités avancées, en passant par les meilleures pratiques pour une utilisation optimale. Que vous soyez un administrateur système, un ingénieur réseau ou simplement quelqu&#39;un qui souhaite en savoir plus sur ce sujet fascinant, ce guide est fait pour vous.<br>L&#39;objectif est simple : vous donner les outils et les connaissances pour configurer, gérer et optimiser un Load Balancer dans le cloud. Vous apprendrez non seulement comment il fonctionne, mais aussi comment il peut être utilisé pour améliorer la performance, la disponibilité et la sécurité de vos applications et services.<br>Alors, êtes-vous prêt à devenir un maître du Load Balancer dans le cloud ? Plongeons dans ce sujet passionnant et découvrons ensemble comment tirer le meilleur parti de cette technologie incroyable.<br>&nbsp;
+
+<h4 id="prsentationdusujet">Présentation du sujet</h4>
+
+<p>Bienvenue dans ce guide complet sur la maîtrise du Load Balancer dans le cloud, un composant essentiel pour toute architecture moderne. Le Load Balancer, ou équilibreur de charge en français, est un outil puissant qui permet de distribuer efficacement le trafic réseau ou les demandes d'applications sur plusieurs serveurs. Dans un monde où la disponibilité et la fiabilité sont de la plus haute importance, comprendre comment configurer et utiliser un Load Balancer dans un environnement cloud est une compétence inestimable. <br />
+Ce guide est conçu pour vous fournir toutes les connaissances nécessaires pour devenir un expert en Load Balancer. Nous aborderons des sujets allant de la configuration de base aux fonctionnalités avancées, en passant par les meilleures pratiques pour une utilisation optimale. Que vous soyez un administrateur système, un ingénieur réseau ou simplement quelqu'un qui souhaite en savoir plus sur ce sujet fascinant, ce guide est fait pour vous. <br />
+L'objectif est simple : vous donner les outils et les connaissances pour configurer, gérer et optimiser un Load Balancer dans le cloud. Vous apprendrez non seulement comment il fonctionne, mais aussi comment il peut être utilisé pour améliorer la performance, la disponibilité et la sécurité de vos applications et services. <br />
+Alors, êtes-vous prêt à devenir un maître du Load Balancer dans le cloud ? Plongeons dans ce sujet passionnant et découvrons ensemble comment tirer le meilleur parti de cette technologie incroyable. <br />
+&nbsp;
 &nbsp;</p>
-<h4 id="importance-du-load-balancing-dans-le-cloud">Importance du load balancing dans le cloud</h4>
-<p>  Penchons-nous sur l&#39;importance cruciale du load balancing dans le contexte du cloud computing. Le cloud a transformé la manière dont les entreprises pensent l&#39;informatique, offrant une élasticité et une flexibilité sans précédent. Cependant, ces avantages viennent avec leur propre ensemble de défis, notamment la gestion efficace des ressources.<br>Dans un environnement cloud, les ressources peuvent être ajoutées ou retirées en quelques clics. Cela signifie que les besoins en équilibrage de charge sont en constante évolution. Un Load Balancer agile et bien configuré peut s&#39;adapter à ces changements dynamiques, assurant que les ressources sont utilisées de manière optimale. Il peut également contribuer à réduire les coûts en évitant l&#39;utilisation excessive de ressources, ce qui est particulièrement important dans un modèle de tarification à l&#39;usage comme le cloud.<br>L&#39;importance du Load Balancer dans le cloud est également mise en évidence par sa capacité à offrir une haute disponibilité. Dans le cloud, la tolérance aux pannes et la récupération rapide sont essentielles. Un Load Balancer bien configuré peut détecter rapidement les serveurs défaillants et rediriger le trafic vers des serveurs en bonne santé, minimisant ainsi les temps d&#39;arrêt et améliorant l&#39;expérience utilisateur.<br>En somme, le Load Balancer n&#39;est pas seulement un outil pour répartir le trafic; il est un élément clé pour maximiser les avantages du cloud computing. Il assure que les applications et services sont robustes, réactifs et, surtout, disponibles lorsque vos utilisateurs en ont besoin. C&#39;est pourquoi comprendre le Load Balancer dans le cloud est non seulement utile, mais essentiel pour quiconque souhaite exploiter pleinement le potentiel du cloud.<br>&nbsp;
+
+<h4 id="importanceduloadbalancingdanslecloud">Importance du load balancing dans le cloud</h4>
+
+<p>Penchons-nous sur l'importance cruciale du load balancing dans le contexte du cloud computing. Le cloud a transformé la manière dont les entreprises pensent l'informatique, offrant une élasticité et une flexibilité sans précédent. Cependant, ces avantages viennent avec leur propre ensemble de défis, notamment la gestion efficace des ressources. <br />
+Dans un environnement cloud, les ressources peuvent être ajoutées ou retirées en quelques clics. Cela signifie que les besoins en équilibrage de charge sont en constante évolution. Un Load Balancer agile et bien configuré peut s'adapter à ces changements dynamiques, assurant que les ressources sont utilisées de manière optimale. Il peut également contribuer à réduire les coûts en évitant l'utilisation excessive de ressources, ce qui est particulièrement important dans un modèle de tarification à l'usage comme le cloud. <br />
+L'importance du Load Balancer dans le cloud est également mise en évidence par sa capacité à offrir une haute disponibilité. Dans le cloud, la tolérance aux pannes et la récupération rapide sont essentielles. Un Load Balancer bien configuré peut détecter rapidement les serveurs défaillants et rediriger le trafic vers des serveurs en bonne santé, minimisant ainsi les temps d'arrêt et améliorant l'expérience utilisateur. <br />
+En somme, le Load Balancer n'est pas seulement un outil pour répartir le trafic; il est un élément clé pour maximiser les avantages du cloud computing. Il assure que les applications et services sont robustes, réactifs et, surtout, disponibles lorsque vos utilisateurs en ont besoin. C'est pourquoi comprendre le Load Balancer dans le cloud est non seulement utile, mais essentiel pour quiconque souhaite exploiter pleinement le potentiel du cloud. <br />
+&nbsp;
 &nbsp;</p>
-<h4 id="objectifs-du-livre">Objectifs du livre</h4>
-<p>Après avoir exploré l&#39;importance du Load Balancer dans le cloud, il est temps de définir les objectifs de cet article. Ce guide a pour but de vous fournir une compréhension complète et approfondie du fonctionnement des Load Balancers dans un environnement cloud. Nous allons aborder des sujets clés tels que la configuration, les différents algorithmes de répartition de charge, la haute disponibilité, et bien plus encore.
-L&#39;un des objectifs principaux est de vous aider à comprendre comment optimiser l&#39;utilisation de votre Load Balancer pour répondre aux besoins spécifiques de votre entreprise. Que vous cherchiez à améliorer la performance, la sécurité ou la fiabilité, ce guide vous donnera les outils nécessaires pour y parvenir. Nous examinerons également les meilleures pratiques et les pièges à éviter, afin que vous puissiez prendre des décisions éclairées.
-Un autre objectif est de vous familiariser avec les fonctionnalités avancées que les Load Balancers modernes offrent, notamment dans un environnement cloud. Vous apprendrez comment utiliser des fonctionnalités comme l&#39;offloading SSL, la persistance des sessions et les contrôles de santé pour améliorer encore plus vos applications et services.
+
+<h4 id="objectifsdulivre">Objectifs du livre</h4>
+
+<p>Après avoir exploré l'importance du Load Balancer dans le cloud, il est temps de définir les objectifs de cet article. Ce guide a pour but de vous fournir une compréhension complète et approfondie du fonctionnement des Load Balancers dans un environnement cloud. Nous allons aborder des sujets clés tels que la configuration, les différents algorithmes de répartition de charge, la haute disponibilité, et bien plus encore.
+L'un des objectifs principaux est de vous aider à comprendre comment optimiser l'utilisation de votre Load Balancer pour répondre aux besoins spécifiques de votre entreprise. Que vous cherchiez à améliorer la performance, la sécurité ou la fiabilité, ce guide vous donnera les outils nécessaires pour y parvenir. Nous examinerons également les meilleures pratiques et les pièges à éviter, afin que vous puissiez prendre des décisions éclairées.
+Un autre objectif est de vous familiariser avec les fonctionnalités avancées que les Load Balancers modernes offrent, notamment dans un environnement cloud. Vous apprendrez comment utiliser des fonctionnalités comme l'offloading SSL, la persistance des sessions et les contrôles de santé pour améliorer encore plus vos applications et services.
 Enfin, ce guide vise à être une ressource complète, que vous soyez un débutant en la matière ou un professionnel expérimenté. Nous allons décomposer les concepts complexes en explications simples et faciles à comprendre, pour que vous puissiez devenir un véritable expert en Load Balancer dans le cloud.
-Alors, préparez-vous à plonger dans le monde fascinant des Load Balancers et à découvrir comment cette technologie peut transformer votre manière de gérer les applications et services dans le cloud.<br>&nbsp;
+Alors, préparez-vous à plonger dans le monde fascinant des Load Balancers et à découvrir comment cette technologie peut transformer votre manière de gérer les applications et services dans le cloud. <br />
+&nbsp;
 &nbsp;</p>
-<h4 id="public-cible">Public cible</h4>
-<p>Maintenant que nous avons défini les objectifs de cet article, il est important de préciser à qui il s&#39;adresse. Ce guide est conçu pour un large éventail de lecteurs, allant des professionnels de l&#39;informatique aux décideurs d&#39;entreprise, en passant par les étudiants et les passionnés de technologie. Si vous êtes un administrateur système cherchant à optimiser les performances de votre réseau, ce guide vous fournira des conseils pratiques et des stratégies éprouvées. Pour les architectes cloud et les développeurs, nous aborderons les aspects techniques en profondeur, y compris les algorithmes de répartition de charge et les meilleures pratiques pour la haute disponibilité.
-Mais ce guide n&#39;est pas seulement pour les techniciens. Les chefs d&#39;entreprise et les gestionnaires de projet trouveront également des informations précieuses ici. Comprendre les bases du Load Balancer dans le cloud peut vous aider à prendre des décisions plus éclairées sur l&#39;infrastructure de votre entreprise, ce qui peut avoir un impact direct sur la rentabilité et la croissance.
+
+<h4 id="publiccible">Public cible</h4>
+
+<p>Maintenant que nous avons défini les objectifs de cet article, il est important de préciser à qui il s'adresse. Ce guide est conçu pour un large éventail de lecteurs, allant des professionnels de l'informatique aux décideurs d'entreprise, en passant par les étudiants et les passionnés de technologie. Si vous êtes un administrateur système cherchant à optimiser les performances de votre réseau, ce guide vous fournira des conseils pratiques et des stratégies éprouvées. Pour les architectes cloud et les développeurs, nous aborderons les aspects techniques en profondeur, y compris les algorithmes de répartition de charge et les meilleures pratiques pour la haute disponibilité.
+Mais ce guide n'est pas seulement pour les techniciens. Les chefs d'entreprise et les gestionnaires de projet trouveront également des informations précieuses ici. Comprendre les bases du Load Balancer dans le cloud peut vous aider à prendre des décisions plus éclairées sur l'infrastructure de votre entreprise, ce qui peut avoir un impact direct sur la rentabilité et la croissance.
 Pour les étudiants en informatique ou en ingénierie, ce guide peut servir de ressource pédagogique pour comprendre les principes fondamentaux du load balancing dans le cloud. Et si vous êtes simplement curieux de savoir comment cette technologie fonctionne et pourquoi elle est si cruciale dans notre monde numérique actuel, vous trouverez également de quoi satisfaire votre curiosité.
-En résumé, quel que soit votre niveau d&#39;expertise ou votre domaine d&#39;intérêt, ce guide a quelque chose à offrir à tous ceux qui cherchent à maîtriser le Load Balancer dans le cloud. Alors, continuons ce voyage passionnant ensemble !<br>&nbsp;
+En résumé, quel que soit votre niveau d'expertise ou votre domaine d'intérêt, ce guide a quelque chose à offrir à tous ceux qui cherchent à maîtriser le Load Balancer dans le cloud. Alors, continuons ce voyage passionnant ensemble ! <br />
+&nbsp;
 &nbsp;</p>
-<h4 id="structure-du-livre">Structure du livre</h4>
+
+<h4 id="structuredulivre">Structure du livre</h4>
+
 <p>Il est temps de vous donner un aperçu de la structure de cet article pour que vous sachiez à quoi vous attendre. Nous avons organisé ce guide en plusieurs sections clés pour vous offrir une expérience de lecture fluide et enrichissante.
 Nous commencerons par une exploration des fondamentaux du Load Balancer, où nous aborderons des concepts tels que la répartition de charge, la haute disponibilité et les différents types de Load Balancers disponibles. Cette section posera les bases pour les discussions plus avancées à venir.
 Ensuite, nous plongerons dans les spécificités techniques du Load Balancer dans un environnement cloud. Vous apprendrez comment configurer et optimiser votre Load Balancer pour différents scénarios, y compris le traitement du trafic HTTP et TCP, avec ou sans SSL.
-La troisième section se concentrera sur les meilleures pratiques et les stratégies d&#39;optimisation. Nous y aborderons des sujets comme l&#39;offloading SSL, la persistance des sessions et les contrôles de santé.
-La quatrième section examinera les défis et les pièges courants à éviter lors de la mise en œuvre d&#39;un Load Balancer dans le cloud. Nous partagerons des astuces et des solutions pour surmonter ces obstacles.
+La troisième section se concentrera sur les meilleures pratiques et les stratégies d'optimisation. Nous y aborderons des sujets comme l'offloading SSL, la persistance des sessions et les contrôles de santé.
+La quatrième section examinera les défis et les pièges courants à éviter lors de la mise en œuvre d'un Load Balancer dans le cloud. Nous partagerons des astuces et des solutions pour surmonter ces obstacles.
 Enfin, nous conclurons avec un résumé des points clés et des questions ouvertes pour stimuler la réflexion et encourager une exploration plus approfondie.
 Nous sommes ravis de vous accompagner dans cette aventure éducative pour maîtriser le Load Balancer dans le cloud. Alors, sans plus attendre, entrons dans le vif du sujet !</p>
-<h2 id="pr-requis">Prérequis</h2>
+
+<h2 id="prrequis">Prérequis</h2>
+
 <ul>
 <li>Connaissance de base en administration système</li>
+
 <li>Compréhension des concepts de cloud computing</li>
+
 <li>Familiarité avec les réseaux et protocoles associés</li>
+
 <li>Expérience en gestion de serveurs</li>
+
 <li>Connaissance des principes de haute disponibilité</li>
 </ul>
-<h2 id="1-qu-est-ce-qu-un-load-balancer-">1. Qu&#39;est-ce qu&#39;un Load Balancer ?</h2>
+
+<h2 id="1questcequunloadbalancer">1. Qu'est-ce qu'un Load Balancer ?</h2>
+
 <ul>
 <li>Définition et rôle du Load Balancer</li>
-<li>Fonctions clés d&#39;un Load Balancer<ul>
+
+<li>Fonctions clés d'un Load Balancer
+
+
+<ul>
 <li>Distribution de la charge sur plusieurs serveurs de backend</li>
+
 <li>Gestion des pannes de serveurs</li>
-<li>Autres use cases (à compléter avec des recherches)</li>
-</ul>
+
+<li>Autres use cases (à compléter avec des recherches)</li></ul>
 </li>
-<li>Composants d&#39;un Load Balancer : Front end, groupe de serveurs de backend, et ferme de serveurs</li>
+
+<li>Composants d'un Load Balancer : Front end, groupe de serveurs de backend, et ferme de serveurs</li>
+
 <li>Comment fonctionne un Load Balancer</li>
+
 <li>Avantages et inconvénients</li>
 </ul>
-<h2 id="2-configuration-de-base">2. Configuration de Base</h2>
+
+<h2 id="2configurationdebase">2. Configuration de Base</h2>
+
 <ul>
 <li>Choix du provider cloud</li>
-<li>Création d&#39;un Load Balancer via API ou interface graphique</li>
+
+<li>Création d'un Load Balancer via API ou interface graphique</li>
+
 <li>Configuration des règles de routage</li>
+
 <li>Ajout de ressources (serveurs, instances)</li>
+
 <li>Tests et vérifications</li>
 </ul>
-<h2 id="3-strat-gies-et-protocoles-de-load-balancing">3. Stratégies et Protocoles de Load Balancing</h2>
+
+<h2 id="3stratgiesetprotocolesdeloadbalancing">3. Stratégies et Protocoles de Load Balancing</h2>
+
 <ul>
-<li>Round Robin<br><img src="./round_robin.svg" alt="round_robin">
+<li>Round Robin <br />
+<img src="./round_robin.svg" alt="round_robin" />
 ```html
 direction: right</li>
 </ul>
-<p>customer_1: Client 1 {
+
+<p>customer<em>1: Client 1 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg">https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg</a>
+  icon: https://icons.terrastruct.com/aws%2F</em>General%2FClient_light-bg.svg
 }</p>
-<p>customer_2: Client 2 {
+
+<p>customer<em>2: Client 2 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg">https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg</a>
+  icon: https://icons.terrastruct.com/aws%2F</em>General%2FClient_light-bg.svg
 }</p>
-<p>customer_3: Client 3 {
+
+<p>customer<em>3: Client 3 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg">https://icons.terrastruct.com/aws%2F_General%2FClient_light-bg.svg</a>
+  icon: https://icons.terrastruct.com/aws%2F</em>General%2FClient_light-bg.svg
 }</p>
+
 <p>cloud: Internet {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/essentials%2F140-internet.svg">https://icons.terrastruct.com/essentials%2F140-internet.svg</a>
+  icon: https://icons.terrastruct.com/essentials%2F140-internet.svg
 }</p>
-<p>load_balancer: Load Balancer {
+
+<p>load<em>balancer: Load Balancer {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/aws%2FNetworking%20&amp;%20Content%20Delivery%2FElastic-Load-Balancing-ELB_Network-load-balancer_light-bg.svg">https://icons.terrastruct.com/aws%2FNetworking%20&amp;%20Content%20Delivery%2FElastic-Load-Balancing-ELB_Network-load-balancer_light-bg.svg</a>
+  icon: https://icons.terrastruct.com/aws%2FNetworking%20&amp;%20Content%20Delivery%2FElastic-Load-Balancing-ELB</em>Network-load-balancer_light-bg.svg
 }</p>
+
 <p>server_1: Serveur 1 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/tech%2Fservers.svg">https://icons.terrastruct.com/tech%2Fservers.svg</a>
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
 }</p>
+
 <p>server_2: Serveur 2 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/tech%2Fservers.svg">https://icons.terrastruct.com/tech%2Fservers.svg</a>
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
 }</p>
+
 <p>server_3: Serveur 3 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/tech%2Fservers.svg">https://icons.terrastruct.com/tech%2Fservers.svg</a>
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
 }</p>
+
 <p>server_4: Serveur 4 {
   shape: image
-  icon: <a href="https://icons.terrastruct.com/tech%2Fservers.svg">https://icons.terrastruct.com/tech%2Fservers.svg</a>
+  icon: https://icons.terrastruct.com/tech%2Fservers.svg
 }</p>
-<p>customer_1 -&gt; cloud: {
+
+<p>customer_1 -> cloud: {
   style.animated: true
 }</p>
-<p>customer_2 -&gt; cloud: {
+
+<p>customer_2 -> cloud: {
   style.animated: true
 }</p>
-<p>customer_3 -&gt; cloud: {
+
+<p>customer_3 -> cloud: {
   style.animated: true
 }</p>
-<p>cloud -&gt; load_balancer: {
+
+<p>cloud -> load_balancer: {
   style.animated: true
 }</p>
-<p>load_balancer -&gt; server_1: 50% {
+
+<p>load<em>balancer -> server</em>1: 50% {
   style.animated: true
   style.stroke-width: 10
   style.font-size: 75
 }</p>
-<p>load_balancer -&gt; server_2: 25% {
+
+<p>load<em>balancer -> server</em>2: 25% {
   style.animated: true
   style.stroke-width: 6
   style.font-size: 50
 }</p>
-<p>load_balancer -&gt; server_3: 10% {
+
+<p>load<em>balancer -> server</em>3: 10% {
   style.animated: true
   style.stroke-width: 4
   style.font-size: 25
 }</p>
-<p>load_balancer -&gt; server_4: 15% {
+
+<p>load<em>balancer -> server</em>4: 15% {
   style.animated: true
   style.stroke-width: 4
   style.font-size: 25
 }</p>
+
 <p>```</p>
+
 <ul>
 <li>Least Connections</li>
+
 <li>IP Hash</li>
+
 <li>Sticky Sessions</li>
+
 <li>Pondération personnalisée</li>
+
 <li>Protocoles supportés : HTTP, TCP avec/sans SSL</li>
 </ul>
-<h2 id="4-fonctionnalit-s-avanc-es-et-contr-le">4. Fonctionnalités Avancées et Contrôle</h2>
+
+<h2 id="4fonctionnalitsavancesetcontrle">4. Fonctionnalités Avancées et Contrôle</h2>
+
 <ul>
 <li>SSL/TLS Termination</li>
-<li>Health Checks pour la détection de l&#39;indisponibilité des serveurs</li>
+
+<li>Health Checks pour la détection de l'indisponibilité des serveurs</li>
+
 <li>Session Persistence</li>
+
 <li>Auto-Scaling</li>
+
 <li>Contrôle via API : create, configure, delete</li>
 </ul>
-<h2 id="5-cas-d-utilisation-et-meilleures-pratiques">5. Cas d&#39;Utilisation et Meilleures Pratiques</h2>
+
+<h2 id="5casdutilisationetmeilleurespratiques">5. Cas d'Utilisation et Meilleures Pratiques</h2>
+
 <ul>
 <li>Load Balancing pour des applications web</li>
+
 <li>Gestion de trafic pour des bases de données</li>
+
 <li>Utilisation dans des architectures microservices</li>
+
 <li>Meilleures pratiques pour la sécurité</li>
+
 <li>Monitoring et alertes</li>
 </ul>
-<h2 id="conclusion-et-questions-ouvertes">Conclusion et Questions Ouvertes</h2>
+
+<h2 id="conclusionetquestionsouvertes">Conclusion et Questions Ouvertes</h2>
+
 <ul>
 <li>Résumé des points clés</li>
+
 <li>Importance de bien configurer son Load Balancer</li>
-<li>Questions ouvertes :<ul>
+
+<li>Questions ouvertes :
+
+
+<ul>
 <li>Comment intégrer des Load Balancers dans des architectures hybrides ?</li>
+
 <li>Quelles sont les tendances futures pour les Load Balancers dans le cloud ?</li>
-<li>Comment optimiser les coûts associés à l&#39;utilisation de Load Balancers ?</li>
-</ul>
+
+<li>Comment optimiser les coûts associés à l'utilisation de Load Balancers ?</li></ul>
 </li>
 </ul>
-</body>
-</html>
