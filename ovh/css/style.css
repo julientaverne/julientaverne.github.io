@@ -324,6 +324,32 @@ a:hover {
     font-weight: bold;
 }
 
+
+
+.introgreen i {
+    padding-right: 10px;
+    font-size: 21px;
+}
+
+.introgreen {
+    background-color: green;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: italic;
+    padding: 10px 20px;
+}
+
+.introgreen p {
+    padding: 0;
+}
+
+.introgreen a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
 .intro1 ul {
     padding: 0 30px;
 }
