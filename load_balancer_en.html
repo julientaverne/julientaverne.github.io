@@ -253,85 +253,87 @@ So, if you're looking for a simple but effective load balancing method to get yo
 
 <li>Sticky Sessions</li>
 
-<li>Pondération personnalisée</li>
+<li>Customised weighting</li>
 
-<li>Protocoles supportés : HTTP, TCP avec/sans SSL</li>
+<li>Protocols supported: HTTP, TCP with/without SSL</li>
 </ul>
 
-<h2 id="4fonctionnalitsavancesetcontrle">4. Fonctionnalités Avancées et Contrôle</h2>
+<h2 id="4fonctionnalitsavancesetcontrle">4.  Advanced Features and Control</h2>
 
 <ul>
 <li>SSL/TLS Termination
-<h1 id="tutoriel-mise-en-place-de-ssl-tls-termination-sur-un-load-balancer">Tutoriel : Mise en Place de SSL/TLS Termination sur un Load Balancer</h1>
-<h2 id="pr-requis">Prérequis</h2>
+<h1 id="tutoriel-mise-en-place-de-ssl-tls-termination-sur-un-load-balancer">Tutorial: Setting up SSL/TLS Termination on a Load Balancer</h1>
+<h2 id="pr-requis">Prerequisites</h2>
 <ul>
-<li>Un compte cloud (AWS, Azure, Google Cloud, etc.)</li>
-<li>Un domaine et un certificat SSL/TLS pour ce domaine</li>
-<li>Connaissance de base des commandes shell</li>
+<li>A cloud account (AWS, Azure, Google Cloud, etc.)</li>
+<li>A domain and an SSL/TLS certificate for this domain</li>
+<li>Basic knowledge of shell commands</li>
 </ul>
-<h2 id="-tapes">Étapes</h2>
-<h3 id="1-connectez-vous-votre-console-cloud">1. Connectez-vous à votre console cloud</h3>
-<p>Ouvrez la console de votre fournisseur de services cloud et naviguez jusqu&#39;à la section des Load Balancers.</p>
-<h3 id="2-cr-ez-un-nouveau-load-balancer">2. Créez un nouveau Load Balancer</h3>
-<p>Suivez les instructions pour créer un nouveau Load Balancer. Assurez-vous de sélectionner un type qui supporte la SSL Termination, comme un &quot;Application Load Balancer&quot; sur AWS.</p>
-<h3 id="3-configurez-les-param-tres-de-base">3. Configurez les paramètres de base</h3>
-<p>Définissez les paramètres de base comme le VPC, les sous-réseaux, etc., selon vos besoins.</p>
-<h3 id="4-ajoutez-des-couteurs-pour-https">4. Ajoutez des écouteurs pour HTTPS</h3>
-<p>Dans la section des écouteurs, ajoutez un nouvel écouteur pour le protocole HTTPS sur le port 443.
+<h2 id="-tapes">Steps</h2>
+<h3 id="1-connectez-vous-votre-console-cloud">1. Connect to your cloud console</h3>
+<p>Open your cloud service provider's console and navigate to the Load Balancers section.</p>
+<h3 id="2-cr-ez-un-nouveau-load-balancer">2. Create a new Load Balancer</h3>
+<p>Follow the instructions to create a new Load Balancer. Make sure you select a type that supports SSL Termination, such as an &quot;Application Load Balancer&quot; on AWS.</p>
+<h3 id="3-configurez-les-param-tres-de-base">3. Configure the basic parameters</h3>
+<p>Define the basic parameters such as VPC, subnets, etc., as required.</p>
+<h3 id="4-ajoutez-des-couteurs-pour-https">4. Add listeners for HTTPS</h3>
+<p>In the listeners section, add a new listener for the HTTPS protocol on port 443.
 <img src="./screenshot (1).png"> 
 </p>
-<h3 id="5-t-l-chargez-et-installez-votre-certificat-ssl">5. Téléchargez et installez votre certificat SSL</h3>
-<p>Téléchargez votre certificat SSL depuis votre fournisseur et installez-le dans la section des certificats SSL de votre Load Balancer.
+<h3 id="5-t-l-chargez-et-installez-votre-certificat-ssl">5. Download and install your SSL certificate</h3>
+<p>Download your SSL certificate from your provider and install it in the SSL certificate section of your Load Balancer.
 <img src="./screenshot (2).png"> </p>
-<h3 id="6-associez-le-certificat-l-couteur-https">6. Associez le certificat à l&#39;écouteur HTTPS</h3>
-<p>Dans la configuration de l&#39;écouteur HTTPS, sélectionnez le certificat que vous venez d&#39;ajouter.</p>
-<h3 id="7-v-rifiez-et-lancez-le-load-balancer">7. Vérifiez et lancez le Load Balancer</h3>
-<p>Revoyez vos configurations et lancez le Load Balancer.</p>
-<h3 id="8-testez-la-ssl-termination">8. Testez la SSL Termination</h3>
-<p>Accédez à votre domaine en utilisant HTTPS et vérifiez que la SSL Termination fonctionne correctement.</p>
+<h3 id="6-associez-le-certificat-l-couteur-https">6. Associate the certificate with the HTTPS listener</h3>
+<p>In the HTTPS listener configuration, select the certificate you have just added.</p>
+<h3 id="7-v-rifiez-et-lancez-le-load-balancer">7. Check and run the Load Balancer</h3>
+<p>Review your configurations and run the Load Balancer.</p>
+<h3 id="8-testez-la-ssl-termination">8. Test SSL Termination</h3>
+<p>Access your domain using HTTPS and check that SSL Termination is working correctly.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Vous avez maintenant mis en place la SSL/TLS Termination sur votre Load Balancer. Cette fonctionnalité vous permet de décrypter le trafic HTTPS au niveau du Load Balancer, ce qui libère vos serveurs backend de cette tâche et améliore les performances.</p>
+<p>You have now set up SSL/TLS Termination on your Load Balancer. Cette fonctionnalité vous permet de décrypter le trafic HTTPS au niveau du Load Balancer, ce qui libère vos serveurs backend de cette tâche et améliore les performances.
+</p>
 
 
 </li>
-	<li>Health Checks pour la détection de l'indisponibilité des serveurs</li>
+	<li>Health Checks for detecting server unavailability</li>
 
 <li>Session Persistence</li>
 
 <li>Auto-Scaling</li>
 
-<li>Contrôle via API : create, configure, delete</li>
+<li>Check by API : create, configure, delete</li>
 </ul>
 
-<h2 id="5casdutilisationetmeilleurespratiques">5. Cas d'Utilisation et Meilleures Pratiques</h2>
+<h2 id="5casdutilisationetmeilleurespratiques">5. Use cases and best practices</h2>
 
 <ul>
-<li>Load Balancing pour des applications web</li>
+<li>Load balancing for web applications</li>
 
-<li>Gestion de trafic pour des bases de données</li>
+<li>Traffic management for databases</li>
 
-<li>Utilisation dans des architectures microservices</li>
+<li>Use in microservices architectures</li>
 
-<li>Meilleures pratiques pour la sécurité</li>
+<li>Security best practices</li>
 
-<li>Monitoring et alertes</li>
+<li>Monitoring and alerts</li>
 </ul>
 
-<h2 id="conclusionetquestionsouvertes">Conclusion et Questions Ouvertes</h2>
+<h2 id="conclusionetquestionsouvertes">Conclusion and Open Questions</h2>
 
 <ul>
-<li>Résumé des points clés</li>
+<li>Summary of key points</li>
 
-<li>Importance de bien configurer son Load Balancer</li>
+<li>Importance of configuring your Load Balancer correctly</li>
 
-<li>Questions ouvertes :
+<li>Open Questions:
+
 
 
 <ul>
-<li>Comment intégrer des Load Balancers dans des architectures hybrides ?</li>
+<li>How can Load Balancers be integrated into hybrid architectures?</li>
 
 <li>Quelles sont les tendances futures pour les Load Balancers dans le cloud ?</li>
 
-<li>Comment optimiser les coûts associés à l'utilisation de Load Balancers ?</li></ul>
+<li>How can I optimise the costs associated with using Load Balancers?</li></ul>
 </li>
 </ul>
