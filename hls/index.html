@@ -32,12 +32,15 @@
   };
 
   var source = {
-    title: 'glee-1080p',
+    title: 'glee-1080p-full',
     hls: 'https://bafybeifexe7a736ynwjyyvdikdghir2oikgz455x2bbvq2wzcz6npgvg2u.ipfs.nftstorage.link/1080p.m3u8',
   };
 
   var player = new bitmovin.player.Player(document.getElementById('player'), conf);
-  player.load(source);
+  //player.load(source);
+  player.load(source).then(function() {
+                player.setViewMode("fullscreen")
+            })
 </script>
 
 </body>
