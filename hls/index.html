@@ -1,27 +1,44 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Simple Free HLS Player Example</title>  
-        <!-- Include hls.js from a CDN -->
-        <script src="https://cdn.tutorialjinni.com/hls.js/1.2.1/hls.min.js"></script>
-        
-    </head>
-    <body>
-        <!-- HTML5 Video Tag -->
-        <video id="video" 
-               width='1280px' height='720px' controls autoplay
-               src="https://bafybeifexe7a736ynwjyyvdikdghir2oikgz455x2bbvq2wzcz6npgvg2u.ipfs.nftstorage.link/playlist.m3u8">
-        </video>
-        <!-- Invocation Script -->
-        <script>
-            if (Hls.isSupported()) {
-              var video = document.getElementById('video');
-              var hls = new Hls();
-              hls.loadSource(video.src);
-              hls.attachMedia(video);
-            }else{
-                alert("Cannot stream HLS, use another video source");
-            }
-        </script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bitmovin Player Demo</title>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8" />
+
+  <!-- Bitmovin Player -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bitmovin-player@8/bitmovinplayer.js"></script>
+
+  <style>
+    .player-wrapper {
+      width: 90%;
+      margin: 20px auto;
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
+  </style>
+</head>
+<body>
+<div class="player-wrapper">
+  <div id="player"></div>
+</div>
+
+<script type="text/javascript">
+  var conf = {
+    key: '3595c19c-169a-4077-9e80-64c04ab8236a',
+    analytics: {
+      key: 'aebaf353-fb06-4207-81d8-6932eef45ece',
+      title: 'glee.S01E06',
+      videoId: 'wizard-glee.S01E06-1702679296120',
+    },
+  };
+
+  var source = {
+    title: 'glee.S01E06',
+    hls: 'https://bafybeifexe7a736ynwjyyvdikdghir2oikgz455x2bbvq2wzcz6npgvg2u.ipfs.nftstorage.link/playlist.m3u8',
+  };
+
+  var player = new bitmovin.player.Player(document.getElementById('player'), conf);
+  player.load(source);
+</script>
+
+</body>
 </html>
