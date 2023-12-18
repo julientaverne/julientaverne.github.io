@@ -1,47 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bitmovin Player Demo</title>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8" />
-
-  <!-- Bitmovin Player -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bitmovin-player@8/bitmovinplayer.js"></script>
-
-  <style>
-    .player-wrapper {
-      width: 90%;
-      margin: 20px auto;
-      box-shadow: 0 0 30px rgba(0,0,0,0.7);
-    }
-  </style>
+<script src="https://cdn.jsdelivr.net/npm/vidstack@^1.0.0/cdn/vidstack.js" type="module"></script>
 </head>
 <body>
-<div class="player-wrapper">
-  <div id="player"></div>
-</div>
 
-<script type="text/javascript">
-  var conf = {
-    key: '3595c19c-169a-4077-9e80-64c04ab8236a',
-    analytics: {
-      key: 'aebaf353-fb06-4207-81d8-6932eef45ece',
-      title: 'glee',
-      videoId: 'wizard-glee-1702679798037',
-    },
-  };
 
-  var source = {
-    title: 'glee-1080p-full',
-    hls: 'https://bafybeif4gkgvf3ftasgip3lv2wt6ow3c2ov634sokt3gvfsz3eul5ibx5u.ipfs.nftstorage.link/ipfs/bafybeif4gkgvf3ftasgip3lv2wt6ow3c2ov634sokt3gvfsz3eul5ibx5u/720p.m3u8',
-  };
-
-  var player = new bitmovin.player.Player(document.getElementById('player'), conf);
-  //player.load(source);
-  player.load(source).then(function() {
-                player.setViewMode("fullscreen")
-            })
-</script>
+  <media-player title="Sprite Fight" src="https://bafybeif4gkgvf3ftasgip3lv2wt6ow3c2ov634sokt3gvfsz3eul5ibx5u.ipfs.nftstorage.link/ipfs/bafybeif4gkgvf3ftasgip3lv2wt6ow3c2ov634sokt3gvfsz3eul5ibx5u/720p.m3u8">
+  <media-provider></media-provider>
+</media-player>
 
 
 </body>
