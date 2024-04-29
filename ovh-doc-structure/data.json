@@ -1,83 +1,50 @@
 [
     {
-        "name": "Account and service management",
+        "name": "Fruits",
+        "title": "Learn about Fruits",
+        "link": "https://example.com/fruits",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
+                "name": "Tropical",
+                "title": "Explore Tropical Fruits",
+                "link": "https://example.com/tropical-fruits",
                 "children": [
-                    {"name": "..."},
-                    {"name": "..."}
+                    {"name": "Mango", "title": "All about Mangoes", "link": "https://example.com/mango"},
+                    {"name": "Papaya", "title": "All about Papayas", "link": "https://example.com/papaya"}
                 ]
             },
             {
-                "name": "Guides de déploiement ",
+                "name": "Temperate",
+                "title": "Explore Temperate Fruits",
+                "link": "https://example.com/temperate-fruits",
                 "children": [
-                    {"name": "..."},
-                    {"name": "..."}
+                    {"name": "Apple", "title": "All about Apples", "link": "https://example.com/apple"},
+                    {"name": "Cherries", "title": "All about Cherries", "link": "https://example.com/cherries"}
                 ]
-            },
-             {
-                "name": "Guides de conception ",
-                "children": [
-                    {"name": "..."},
-                    {"name": "..."}
-                ]
-            },
-            {
-                "name": "Guides de migration ",
-                "children": [
-                    {"name": "..."},
-                    {"name": "..."}
-                ]
-            },
-            {
-                "name": "Cookbooks ",
-                "children": [
-                    {"name": "..."},
-                    {"name": "..."}
-                ]
-            },
-             {
-                "name": "Guides de performances ",
-                "children": [
-                    {"name": "..."},
-                    {"name": "..."}
-                ]
-            },
-             {
-                "name": "Guides de sécurité ",
-                "children": [
-                    {"name": "..."},
-                    {"name": "..."}
-                ]
-            },
-             
-             {
-                "name": "Guides de dépannage ",
-                "children": [
-                    {"name": "..."},
-                    {"name": "..."}
-                ]
-            },
-             
-            
+            }
         ]
     },
     {
         "name": "Vegetables",
+        "title": "Learn about Vegetables",
+        "link": "https://example.com/vegetables",
         "children": [
             {
                 "name": "Leafy",
+                "title": "Explore Leafy Vegetables",
+                "link": "https://example.com/leafy-vegetables",
                 "children": [
-                    {"name": "Spinach"},
-                    {"name": "Lettuce"}
+                    {"name": "Spinach", "title": "All about Spinach", "link": "https://example.com/spinach"},
+                    {"name": "Lettuce", "title": "All about Lettuce", "link": "https://example.com/lettuce"}
                 ]
             },
             {
                 "name": "Root",
+                "title": "Explore Root Vegetables",
+                "link": "https://example.com/root-vegetables",
                 "children": [
-                    {"name": "Carrot"},
-                    {"name": "Beetroot"}
+                    {"name": "Carrot", "title": "All about Carrots", "link": "https://example.com/carrot"},
+                    {"name": "Beetroot", "title": "All about Beetroots", "link": "https://example.com/beetroot"}
                 ]
             }
         ]
