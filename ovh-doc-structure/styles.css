@@ -2,6 +2,16 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    background-color: #e8e8e8;
+    margin: 5px;
+    box-shadow: 0 0 10px #ccc;
 }
 
 ul {
