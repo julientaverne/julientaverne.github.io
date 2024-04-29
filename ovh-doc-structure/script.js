@@ -13,7 +13,11 @@ function createList(items) {
     items.forEach(item => {
         const li = document.createElement('li');
         const text = document.createElement('span');
-        text.textContent = item.name;
+        const link = document.createElement('a');
+        link.href = item.link;
+        link.title = item.title;
+        link.textContent = item.name;
+        text.appendChild(link);
         li.appendChild(text);
         li.classList.add('list-item');
 
@@ -23,7 +27,7 @@ function createList(items) {
             li.appendChild(childUl);
             li.classList.add('has-children');
             text.classList.add('folder-icon');
-            li.addEventListener('click', function(event) {
+            link.addEventListener('click', function(event) {
                 event.stopPropagation(); // Prevent clicks from bubbling up to parent elements
                 childUl.style.display = childUl.style.display === 'none' ? 'block' : 'none';
             });
