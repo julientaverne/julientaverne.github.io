@@ -32,6 +32,20 @@ li.has-children > .list-item {
     cursor: pointer;
 }
 
+.folder-icon::before, .leaf-icon::before {
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+    color: #888;
+}
+
+.folder-icon::before {
+    content: '\f07b'; /* FontAwesome folder icon */
+}
+
+.leaf-icon::before {
+    content: '\f06c'; /* FontAwesome leaf icon */
+}
+
 li.has-children::before {
     content: '▸';
     padding-right: 5px;
