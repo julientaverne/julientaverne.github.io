@@ -44,138 +44,109 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Configuration and Deployment",
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                    {
+                        "name": "Configuration",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Technical Resources",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Integration and Customization",
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                    {
+                        "name": "Integration ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Customization ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Cookbooks",
+                "name": "Security and Administration",
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                    {
+                        "name": "Security",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Administration",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Guides de performances",
+                "name": "User Support",
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                    {
+                        "name": "FAQ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Troubleshooting ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    }
                 ]
             },
             {
-                "name": "Guides de sécurité",
+                "name": "Additional Resources",
                 "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            }
-            
-        ]
-    },
-    {
-        "name": "Réseau",
-        "title": "...",
-        "link": "#",
-        "children": [
-            {
-                "name": "Guides de démarrage rapide",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de déploiement",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de conception",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de migration",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
+                "link": "#"                
             }
             
         ]
