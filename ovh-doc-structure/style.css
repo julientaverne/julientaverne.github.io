@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px dotted #ccc;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+li.list-item {
+    cursor: default;
+}
+
+li.has-children > .list-item {
+    cursor: pointer;
+}
+
+li.has-children::before {
+    content: '▸';
+    padding-right: 5px;
+    color: #888;
+}
+
+li.has-children > ul {
+    margin-top: 5px;
+}
+
+li > ul {
+    display: none; /* Hide all child lists initially */
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Fruits",
+        "children": [
+            {
+                "name": "Tropical",
+                "children": [
+                    {"name": "Mango"},
+                    {"name": "Papaya"}
+                ]
+            },
+            {
+                "name": "Temperate",
+                "children": [
+                    {"name": "Apple"},
+                    {"name": "Cherries"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vegetables",
+        "children": [
+            {
+                "name": "Leafy",
+                "children": [
+                    {"name": "Spinach"},
+                    {"name": "Lettuce"}
+                ]
+            },
+            {
+                "name": "Root",
+                "children": [
+                    {"name": "Carrot"},
+                    {"name": "Beetroot"}
+                ]
+            }
+        ]
+    }
+]
