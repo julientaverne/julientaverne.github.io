@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', function() {
     fetch('data.json')
         .then(response => response.json())
@@ -7,6 +8,22 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error loading the JSON data: ', error));
 });
+*/
+
+document.addEventListener('DOMContentLoaded', function() {
+    fetchAndDisplay('data1.json', 'nestedListContainer1');
+    fetchAndDisplay('data2.json', 'nestedListContainer2');
+});
+
+function fetchAndDisplay(jsonFile, containerId) {
+    fetch(jsonFile)
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById(containerId);
+            container.appendChild(createList(data));
+        })
+        .catch(error => console.error('Error loading the JSON data from ' + jsonFile + ': ', error));
+}
 
 function createList(items) {
     const ul = document.createElement('ul');
