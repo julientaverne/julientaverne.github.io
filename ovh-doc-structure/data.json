@@ -1,21 +1,64 @@
 [
     {
-        "name": "Fruits",
+        "name": "Account and service management",
         "children": [
             {
-                "name": "Tropical",
+                "name": "Guides de démarrage rapide",
                 "children": [
-                    {"name": "Mango"},
-                    {"name": "Papaya"}
+                    {"name": "..."},
+                    {"name": "..."}
                 ]
             },
             {
-                "name": "Temperate",
+                "name": "Guides de déploiement ",
                 "children": [
-                    {"name": "Apple"},
-                    {"name": "Cherries"}
+                    {"name": "..."},
+                    {"name": "..."}
+                ]
+            },
+             {
+                "name": "Guides de conception ",
+                "children": [
+                    {"name": "..."},
+                    {"name": "..."}
+                ]
+            },
+             {
+                "name": "Guides de performances ",
+                "children": [
+                    {"name": "..."},
+                    {"name": "..."}
+                ]
+            },
+             {
+                "name": "Guides de sécurité ",
+                "children": [
+                    {"name": "..."},
+                    {"name": "..."}
+                ]
+            },
+             {
+                "name": "Guides de migration ",
+                "children": [
+                    {"name": "..."},
+                    {"name": "..."}
+                ]
+            },
+             {
+                "name": "Guides de dépannage ",
+                "children": [
+                    {"name": "..."},
+                    {"name": "..."}
+                ]
+            },
+             {
+                "name": "Cookbooks ",
+                "children": [
+                    {"name": "..."},
+                    {"name": "..."}
                 ]
             }
+            
         ]
     },
     {
