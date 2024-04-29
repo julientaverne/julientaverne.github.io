@@ -64,7 +64,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "Sécuriser un serveur dédié (KB0043978)", "title": "Découvrez les éléments de base vous permettant de sécuriser votre serveur dédié ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-securing-server?id=kb_article_view&sysparm_article=KB0043978"},
                     {"name": "...", "title": "...", "link": "#"}
                 ]
             },
