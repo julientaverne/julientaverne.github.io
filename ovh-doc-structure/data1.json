@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Bare Metal Cloud",
+        "title": "...",
+        "link": "#",
+        "children": [
+            {
+                "name": "Guides de démarrage rapide",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "Premiers pas avec un serveur dédié ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de déploiement",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de conception",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de migration",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Cookbooks",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de performances",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de sécurité",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de dépannage",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            }
+            
+        ]
+    },
+    {
+        "name": "Réseau",
+        "title": "...",
+        "link": "#",
+        "children": [
+            {
+                "name": "Guides de démarrage rapide",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de déploiement",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de conception",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de migration",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Cookbooks",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de performances",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de sécurité",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Guides de dépannage",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            }
+            
+        ]
+    }
+    
+]
