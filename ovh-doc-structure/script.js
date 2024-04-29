@@ -12,7 +12,9 @@ function createList(items) {
     const ul = document.createElement('ul');
     items.forEach(item => {
         const li = document.createElement('li');
-        li.textContent = item.name;
+        const text = document.createElement('span');
+        text.textContent = item.name;
+        li.appendChild(text);
         li.classList.add('list-item');
 
         if (item.children && item.children.length > 0) {
@@ -20,10 +22,13 @@ function createList(items) {
             childUl.style.display = 'none'; // Initially hide the children
             li.appendChild(childUl);
             li.classList.add('has-children');
+            text.classList.add('folder-icon');
             li.addEventListener('click', function(event) {
                 event.stopPropagation(); // Prevent clicks from bubbling up to parent elements
                 childUl.style.display = childUl.style.display === 'none' ? 'block' : 'none';
             });
+        } else {
+            text.classList.add('leaf-icon');
         }
         ul.appendChild(li);
     });
