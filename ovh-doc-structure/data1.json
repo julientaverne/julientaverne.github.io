@@ -127,6 +127,7 @@
                 "link": "#",
                 "children": [
                     {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
+                    {"name": "Utiliser la fonctionnalité Bring Your Own IP  (KB0044867) ", "title": "Découvrez comment importer facilement votre propre adresse IP comme Additional IP dans votre compte OVHcloud ", "link": "https://help.ovhcloud.com/csm/fr-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044867"},
                     {"name": "...", "title": "...", "link": "#"}
                 ]
             },
