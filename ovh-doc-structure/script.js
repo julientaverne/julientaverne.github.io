@@ -11,8 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
 */
 
 document.addEventListener('DOMContentLoaded', function() {
+    fetchAndDisplay('data0.json', 'nestedListContainer0');
     fetchAndDisplay('data1.json', 'nestedListContainer1');
     fetchAndDisplay('data2.json', 'nestedListContainer2');
+    fetchAndDisplay('data3.json', 'nestedListContainer3');
 });
 
 function fetchAndDisplay(jsonFile, containerId) {
