@@ -5,17 +5,7 @@
         "link": "#",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "Premiers pas avec un serveur dédié Kimsufi, So You Start ou Rise  (KB0043494) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur Kimsufi, So You Start ou Rise ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server-eco?id=kb_article_view&sysparm_article=KB0043494"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de déploiement",
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -24,7 +14,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -33,7 +23,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -42,7 +32,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -51,7 +41,7 @@
                 ]
             },
             {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -60,24 +50,14 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Sécuriser un serveur dédié (KB0043978)", "title": "Découvrez les éléments de base vous permettant de sécuriser votre serveur dédié ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-securing-server?id=kb_article_view&sysparm_article=KB0043978"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
                     {"name": "...", "title": "...", "link": "#"},
                     {"name": "...", "title": "...", "link": "#"}
                 ]
-            }
-            
+            }            
         ]
     },
     {
@@ -86,7 +66,7 @@
         "link": "#",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -95,7 +75,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -104,7 +84,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -113,7 +93,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -122,17 +102,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "Utiliser la fonctionnalité Bring Your Own IP  (KB0044867) ", "title": "Découvrez comment importer facilement votre propre adresse IP comme Additional IP dans votre compte OVHcloud ", "link": "https://help.ovhcloud.com/csm/fr-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044867"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -141,16 +111,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -167,7 +128,7 @@
         "link": "#",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -176,7 +137,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -185,7 +146,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -194,7 +155,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -203,16 +164,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -221,16 +173,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -247,16 +190,7 @@
         "link": "#",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Clients Kimsufi et So you Start - Se familiariser avec l'espace client OVHcloud  (KB0043466)", "title": "Apprenez à naviguer dans l'espace client OVHcloud ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-ovhcloud-control-panel-guided-tour?id=kb_article_view&sysparm_article=KB0043466"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de déploiement",
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -265,7 +199,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -274,7 +208,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -283,16 +217,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -301,7 +226,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -310,7 +235,7 @@
                 ]
             },
             {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -326,8 +251,8 @@
         "title": "...",
         "link": "#",
         "children": [
-            {
-                "name": "Guides de démarrage rapide",
+           {
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -336,7 +261,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -345,7 +270,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -354,7 +279,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -363,16 +288,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -381,16 +297,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -406,8 +313,8 @@
         "title": "...",
         "link": "#",
         "children": [
-            {
-                "name": "Guides de démarrage rapide",
+           {
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -416,7 +323,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -425,7 +332,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -434,7 +341,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -443,16 +350,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -461,16 +359,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -486,8 +375,8 @@
         "title": "...",
         "link": "#",
         "children": [
-            {
-                "name": "Guides de démarrage rapide",
+           {
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -496,7 +385,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -505,7 +394,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -514,7 +403,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -523,16 +412,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -541,16 +421,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -566,8 +437,8 @@
         "title": "...",
         "link": "#",
         "children": [
-            {
-                "name": "Guides de démarrage rapide",
+           {
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -576,7 +447,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -585,7 +456,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -594,7 +465,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -603,16 +474,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -621,16 +483,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -647,7 +500,7 @@
         "link": "#",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
+                "name": "First steps",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -656,7 +509,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Use cases",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -665,7 +518,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Concepts",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -674,7 +527,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Configuration",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -683,16 +536,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "Premiers pas avec un serveur dédié (KB0043481) ", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur ", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de performances",
+                "name": "Technical resources",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -701,16 +545,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Guides de dépannage",
+                "name": "Tutorial and FAQ OVHCloud",
                 "title": "...",
                 "link": "#",
                 "children": [
