@@ -215,6 +215,93 @@
                 ]
             }            
         ]
+    },
+    {
+        "name": "Network",
+        "title": "...",
+        "link": "#",
+        "children": [
+            {
+                "name": "Bring your own IP (BYOIP)",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Additional IP",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "Network and Security",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+            {
+                "name": "OVHcloud Connect",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {
+                        "name": "Concepts ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Getting started ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Technical resources ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Configuration ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "vRack Services",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            }
+            
+        ]
     }
     
 ]
