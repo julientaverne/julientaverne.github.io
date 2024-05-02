@@ -19,11 +19,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
      const expandButton = document.getElementById('expandAllButton');
     expandButton.addEventListener('click', function() {
-        expandAllNodes(document.getElementById('nestedListContainer0'));
-        expandAllNodes(document.getElementById('nestedListContainer1'));
-        expandAllNodes(document.getElementById('nestedListContainer2'));
-        expandAllNodes(document.getElementById('nestedListContainer3'));
-        expandAllNodes(document.getElementById('nestedListContainer4'));
+        try {
+            expandAllNodes(document.getElementById('nestedListContainer0'));
+        } catch (error) {
+            console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer0'));")
+        }
+
+        try {
+            expandAllNodes(document.getElementById('nestedListContainer1'));
+        } catch (error) {
+            console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer1'));")
+        }
+
+        try {
+            expandAllNodes(document.getElementById('nestedListContainer2'));
+        } catch (error) {
+            console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer2'));")
+        }
+
+        try {
+            expandAllNodes(document.getElementById('nestedListContainer3'));
+        } catch (error) {
+            console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer3'));")
+        }
+
+        try {
+            expandAllNodes(document.getElementById('nestedListContainer4'));
+        } catch (error) {
+            console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer4'));")
+        }
+
+        
         
     });
     
