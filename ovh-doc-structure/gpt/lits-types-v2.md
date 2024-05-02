@@ -1,4 +1,4 @@
-voici la liste des types: Pour organiser les types d'articles de manière logique et intuitive, on peut envisager de les classer selon le flux typique de l'interaction d'un utilisateur avec la plateforme, du démarrage à la résolution de problèmes avancés. Voici une proposition d'ordre de rangement :
+voici la liste des types: 
 
 1. **Getting started** : Aident les utilisateurs à démarrer rapidement avec les services de base de la plateforme.
    1. Compute
