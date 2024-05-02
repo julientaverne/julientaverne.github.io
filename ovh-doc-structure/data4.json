@@ -105,33 +105,8 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                   {
-                    "name": "Compute ",
-                    "title": "...",
-                    "link": "#",
-                    "children": [
-                        {"name": "...", "title": "...", "link": "#"},
-                        {"name": "...", "title": "...", "link": "#"}
-                    ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                            {"name": "...", "title": "...", "link": "#"},
-                            {"name": "...", "title": "...", "link": "#"}
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                            {"name": "...", "title": "...", "link": "#"},
-                            {"name": "...", "title": "...", "link": "#"}
-                        ]
-                    }
+                       {"name": "...", "title": "...", "link": "#"},
+                       {"name": "...", "title": "...", "link": "#"}
                 ]
             },
                {
