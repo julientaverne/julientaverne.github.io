@@ -39,25 +39,7 @@
                 ]
             },
                {
-                "name": "Administration ",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Deployments",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
-            {
-                "name": "Conceptions",
+                "name": "Configuration (Administration, Deployments, Conceptions, Performances) ",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -82,16 +64,7 @@
                     {"name": "...", "title": "...", "link": "#"},
                     {"name": "...", "title": "...", "link": "#"}
                 ]
-            },
-            {
-                "name": "Perfoamnces",
-                "title": "...",
-                "link": "#",
-                "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
-                ]
-            },
+            },            
             {
                 "name": "Security ",
                 "title": "...",
