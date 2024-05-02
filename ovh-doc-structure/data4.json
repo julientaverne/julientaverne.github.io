@@ -5,7 +5,16 @@
         "link": "#",
         "children": [
             {
-                "name": "Guides de démarrage rapide",
+                "name": "Getting started",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+               {
+                "name": "Administration ",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -14,7 +23,7 @@
                 ]
             },
             {
-                "name": "Guides de déploiement",
+                "name": "Deployments",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -23,7 +32,7 @@
                 ]
             },
             {
-                "name": "Guides de conception",
+                "name": "Conceptions",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -32,7 +41,7 @@
                 ]
             },
             {
-                "name": "Guides de migration",
+                "name": "Migrations",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -41,7 +50,7 @@
                 ]
             },
             {
-                "name": "Cookbooks",
+                "name": "Tutorials",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -50,7 +59,7 @@
                 ]
             },
             {
-                "name": "Guides de performances",
+                "name": "Perfoamnces",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -59,7 +68,7 @@
                 ]
             },
             {
-                "name": "Guides de sécurité",
+                "name": "Security ",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -68,7 +77,16 @@
                 ]
             },
             {
-                "name": "Guides de dépannage",
+                "name": "Support / Troubleshooting",
+                "title": "...",
+                "link": "#",
+                "children": [
+                    {"name": "...", "title": "...", "link": "#"},
+                    {"name": "...", "title": "...", "link": "#"}
+                ]
+            },
+               {
+                "name": "Additional Resources ",
                 "title": "...",
                 "link": "#",
                 "children": [
