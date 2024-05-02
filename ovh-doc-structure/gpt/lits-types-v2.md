@@ -32,7 +32,7 @@ voici la liste des types: Pour organiser les types d'articles de manière logiqu
    2. Storage
    3. Network
   
-7. **Additionnal Resources ** : Aident les utilsateurs en fournissant des ressoucres en rapport avec l'univers concerné.
+7. **Additionnal Resources** : Aident les utilsateurs en fournissant des ressoucres en rapport avec l'univers concerné.
    1. Compute
    2. Storage
    3. Network
