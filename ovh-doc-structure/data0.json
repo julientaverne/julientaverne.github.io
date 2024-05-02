@@ -98,7 +98,52 @@
                 "link": "#",
                 "children": [
                     {
-                        "name": "vRack",
+                        "name": "Getting started",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    }, 
+                    {
+                        "name": "Backup options",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                     {
+                        "name": "Network and IP management ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                     {
+                        "name": "Troubleshooting ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                     {
+                        "name": "Advanced usage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                     {
+                        "name": "Tutorials",
                         "title": "...",
                         "link": "#",
                         "children": [
@@ -114,7 +159,52 @@
                 "link": "#",
                 "children": [
                    {
-                        "name": "vRack",
+                        "name": "OVHcloud services and options ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "FAQ ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "OVHcloud features ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Getting started ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "Managing virtual machines ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                            {"name": "...", "title": "...", "link": "#"},
+                            {"name": "...", "title": "...", "link": "#"}
+                        ]
+                    },
+                    {
+                        "name": "VMware vSphere features",
                         "title": "...",
                         "link": "#",
                         "children": [
