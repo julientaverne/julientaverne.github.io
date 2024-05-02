@@ -16,6 +16,17 @@ document.addEventListener('DOMContentLoaded', function() {
     fetchAndDisplay('data2.json', 'nestedListContainer2');
     fetchAndDisplay('data3.json', 'nestedListContainer3');
     fetchAndDisplay('data4.json', 'nestedListContainer4');
+
+     const expandButton = document.getElementById('expandAllButton');
+    expandButton.addEventListener('click', function() {
+        expandAllNodes(document.getElementById('nestedListContainer0'));
+        expandAllNodes(document.getElementById('nestedListContainer1'));
+        expandAllNodes(document.getElementById('nestedListContainer2'));
+        expandAllNodes(document.getElementById('nestedListContainer3'));
+        expandAllNodes(document.getElementById('nestedListContainer4'));
+        
+    });
+    
 });
 
 function fetchAndDisplay(jsonFile, containerId) {
@@ -57,4 +68,9 @@ function createList(items) {
         ul.appendChild(li);
     });
     return ul;
+}
+
+function expandAllNodes(container) {
+    const nestedLists = container.querySelectorAll('ul');
+    nestedLists.forEach(ul => ul.style.display = 'block');
 }
