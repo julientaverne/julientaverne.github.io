@@ -1,20 +1,11 @@
-voici la liste complète des univers que nous avons définis jusqu'à présent :
+voici la liste complète des univers
 
-Gestion de vos comptes et de vos services
-Description : Guides et tutoriels dédiés à la facturation.
-Bare Metal Cloud
-Description : Guides et tutoriels dédiés à l’utilisation des produits Bare Metal.
-Hosted Private Cloud
-Description : Guides et tutoriels dédiés à l’utilisation des produits Hosted Private Cloud.
-Public Cloud
-Description : Guides et FAQ destinés à fournir un self-service aux utilisateurs des produits Public Cloud.
-Web Cloud
-Description : Guides et tutoriels dédiés à l’utilisation des produits Web et Télécom.
-Stockage et Sauvegarde
-Description : Débuter avec vos produits de stockage et sauvegarde.
-Réseau
-Description : Guides et tutoriels d’utilisation de nos solutions réseau.
-Gérer et exploiter
-Description : Infrastructure automation (API, CLI, Terraform) - Guides d’utilisation.
-OVHcloud Labs
-Description : Guides et tutoriels dédiés à l’utilisation des produits en Béta-test du Lab.
+1. **Gestion de vos comptes et de vos services** : Guides et tutoriels dédiés à la facturation.
+2. **Bare Metal Cloud** : Guides et tutoriels dédiés à l’utilisation des produits Bare Metal.
+3. **Hosted Private Cloud** : Guides et tutoriels dédiés à l’utilisation des produits Hosted Private Cloud.
+4. **Public Cloud** : Guides et FAQ destinés à fournir un self-service aux utilisateurs des produits Public Cloud.
+5. **Web Cloud** : Guides et tutoriels dédiés à l’utilisation des produits Web et Télécom.
+6. **Stockage et Sauvegarde** : Débuter avec vos produits de stockage et sauvegarde.
+7. **Réseau** : Guides et tutoriels d’utilisation de nos solutions réseau.
+8. **Gérer et exploiter** : Infrastructure automation (API, CLI, Terraform) - Guides d’utilisation.
+9. **OVHcloud Labs** : Guides et tutoriels dédiés à l’utilisation des produits en Béta-test du Lab.
