@@ -13,9 +13,7 @@
                         "name": "Getting started",
                         "title": "...",
                         "link": "#",
-                        "children": [
-                            {"name": "...", "title": "...", "link": "#"},
-                            {"name": "...", "title": "...", "link": "#"}
+                        "children": [                            
                         ]
                     },
                     {
