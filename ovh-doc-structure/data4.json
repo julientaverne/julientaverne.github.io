@@ -14,8 +14,7 @@
                     "title": "...",
                     "link": "#",
                     "children": [
-                        {"name": "...", "title": "...", "link": "#"},
-                        {"name": "...", "title": "...", "link": "#"}
+                       
                     ]
                     },
                       {
@@ -23,8 +22,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "...", "title": "...", "link": "#"},
-                            {"name": "...", "title": "...", "link": "#"}
+                           
                         ]
                     },
                             {
@@ -32,8 +30,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "...", "title": "...", "link": "#"},
-                            {"name": "...", "title": "...", "link": "#"}
+                           
                         ]
                     }
                 ]
@@ -43,8 +40,30 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                 {
+                    "name": "Compute ",
+                    "title": "...",
+                    "link": "#",
+                    "children": [
+                       
+                    ]
+                    },
+                      {
+                        "name": "Storage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    },
+                            {
+                        "name": "Network ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    }
                 ]
             },
             {
@@ -52,8 +71,30 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                  {
+                    "name": "Compute ",
+                    "title": "...",
+                    "link": "#",
+                    "children": [
+                       
+                    ]
+                    },
+                      {
+                        "name": "Storage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    },
+                            {
+                        "name": "Network ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    }
                 ]
             },
             {
@@ -61,8 +102,30 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                 {
+                    "name": "Compute ",
+                    "title": "...",
+                    "link": "#",
+                    "children": [
+                       
+                    ]
+                    },
+                      {
+                        "name": "Storage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    },
+                            {
+                        "name": "Network ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    }
                 ]
             },            
             {
@@ -70,8 +133,30 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                  {
+                    "name": "Compute ",
+                    "title": "...",
+                    "link": "#",
+                    "children": [
+                       
+                    ]
+                    },
+                      {
+                        "name": "Storage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    },
+                            {
+                        "name": "Network ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    }
                 ]
             },
             {
@@ -79,8 +164,30 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                     {
+                    "name": "Compute ",
+                    "title": "...",
+                    "link": "#",
+                    "children": [
+                       
+                    ]
+                    },
+                      {
+                        "name": "Storage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    },
+                            {
+                        "name": "Network ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    }
                 ]
             },
                {
@@ -88,8 +195,30 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                   {
+                    "name": "Compute ",
+                    "title": "...",
+                    "link": "#",
+                    "children": [
+                       
+                    ]
+                    },
+                      {
+                        "name": "Storage ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    },
+                            {
+                        "name": "Network ",
+                        "title": "...",
+                        "link": "#",
+                        "children": [
+                           
+                        ]
+                    }
                 ]
             }
             
@@ -105,8 +234,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                       {"name": "...", "title": "...", "link": "#"},
-                       {"name": "...", "title": "...", "link": "#"}
+                     
                 ]
             },
                {
@@ -114,8 +242,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                 
                 ]
             },
             {
@@ -123,8 +250,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                  
                 ]
             },
             {
@@ -132,8 +258,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                
                 ]
             },            
             {
@@ -141,8 +266,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                 
                 ]
             },
             {
@@ -150,8 +274,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                 
                 ]
             },
                {
@@ -159,8 +282,7 @@
                 "title": "...",
                 "link": "#",
                 "children": [
-                    {"name": "...", "title": "...", "link": "#"},
-                    {"name": "...", "title": "...", "link": "#"}
+                   
                 ]
             }
             
