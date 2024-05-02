@@ -69,3 +69,17 @@ li.has-children > ul {
 li > ul {
     display: none; /* Hide all child lists initially */
 }
+
+#expandAllButton {
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#expandAllButton:hover {
+    background-color: #45a049;
+}
