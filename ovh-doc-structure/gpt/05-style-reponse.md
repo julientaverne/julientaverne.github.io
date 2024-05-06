@@ -1,4 +1,4 @@
-### Analyse de l'Article
+voici le style de retour que tu dois me fournir lors de ma demande d'analyse d'un article: `### Analyse de l'Article
 
 **Type d'Article:**
 - **Guides de démarrage rapide**
@@ -17,4 +17,4 @@
    - **Type Associé: Guides de démarrage rapide**
    - L'article aide les utilisateurs à gérer et à exploiter leurs ressources cloud plus efficacement en intégrant OVHcloud Connect Direct dans leur espace de gestion OVHcloud, ce qui est directement lié à la gestion opérationnelle des ressources cloud.
 
-L'univers "Bare Metal Cloud" est identifié comme le principal en raison de l'intégration directe de OVHcloud Connect avec les ressources de Bare Metal, avec "Réseau" et "Gérer et exploiter" comme univers secondaires pour leur relation étroite avec les thèmes de connectivité et de gestion des ressources.
+L'univers "Bare Metal Cloud" est identifié comme le principal en raison de l'intégration directe de OVHcloud Connect avec les ressources de Bare Metal, avec "Réseau" et "Gérer et exploiter" comme univers secondaires pour leur relation étroite avec les thèmes de connectivité et de gestion des ressources.`
