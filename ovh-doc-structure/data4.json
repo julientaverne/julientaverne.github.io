@@ -14,7 +14,9 @@
                     "title": "...",
                     "link": "#",
                     "children": [
-                       
+                         {"name": "Premiers pas avec un serveur dédié (KB0043481)", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
+                         {"name": "...", "title": "...", "link": "#"},
+                        {"name": "...", "title": "...", "link": "#"}
                     ]
                     },
                       {
