@@ -5,224 +5,29 @@
         "link": "#",
         "children": [
             {
-                "name": "Getting started",
+                "name": "Compute ",
                 "title": "...",
                 "link": "#",
                 "children": [
-                   {
-                    "name": "Compute ",
-                    "title": "...",
-                    "link": "#",
-                    "children": [
-                         {"name": "Premiers pas avec un serveur dédié (KB0043481)", "title": "Découvrez comment gérer un serveur dédié dans votre espace client OVHcloud et comment démarrer avec la configuration et la sécurisation d'un serveur", "link": "https://help.ovhcloud.com/csm/fr-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043481"},
-                         {"name": "...", "title": "...", "link": "#"},
-                        {"name": "...", "title": "...", "link": "#"}
-                    ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
+                   
                 ]
-            },
-               {
-                "name": "Configuration (Administration, Deployments, Conceptions, Performances) ",
-                "title": "...",
-                "link": "#",
-                "children": [
-                 {
-                    "name": "Compute ",
-                    "title": "...",
-                    "link": "#",
-                    "children": [
-                       
-                    ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Migrations",
-                "title": "...",
-                "link": "#",
-                "children": [
+                },
                   {
-                    "name": "Compute ",
+                    "name": "Storage ",
                     "title": "...",
                     "link": "#",
                     "children": [
                        
                     ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Tutorials",
-                "title": "...",
-                "link": "#",
-                "children": [
-                 {
-                    "name": "Compute ",
+                },
+                        {
+                    "name": "Network ",
                     "title": "...",
                     "link": "#",
                     "children": [
                        
                     ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
-                ]
-            },            
-            {
-                "name": "Security ",
-                "title": "...",
-                "link": "#",
-                "children": [
-                  {
-                    "name": "Compute ",
-                    "title": "...",
-                    "link": "#",
-                    "children": [
-                       
-                    ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Support / Troubleshooting",
-                "title": "...",
-                "link": "#",
-                "children": [
-                     {
-                    "name": "Compute ",
-                    "title": "...",
-                    "link": "#",
-                    "children": [
-                       
-                    ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
-                ]
-            },
-               {
-                "name": "Additional Resources ",
-                "title": "...",
-                "link": "#",
-                "children": [
-                   {
-                    "name": "Compute ",
-                    "title": "...",
-                    "link": "#",
-                    "children": [
-                       
-                    ]
-                    },
-                      {
-                        "name": "Storage ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    },
-                            {
-                        "name": "Network ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                           
-                        ]
-                    }
-                ]
-            }
+                }
             
         ]
     },
@@ -232,7 +37,7 @@
         "link": "#",
         "children": [
            {
-                "name": "Getting started",
+                "name": "Additional IP",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -240,7 +45,7 @@
                 ]
             },
                {
-                "name": "Configuration (Administration, Deployments, Conceptions, Performances) ",
+                "name": "OVHcloud Load Balancer",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -248,7 +53,7 @@
                 ]
             },
             {
-                "name": "Migrations",
+                "name": "Private Network (vRack)",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -256,7 +61,7 @@
                 ]
             },
             {
-                "name": "Tutorials",
+                "name": "OVHcloud Connect",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -264,7 +69,7 @@
                 ]
             },            
             {
-                "name": "Security ",
+                "name": "Bring Your Own IP (BYOIP) ",
                 "title": "...",
                 "link": "#",
                 "children": [
@@ -272,19 +77,11 @@
                 ]
             },
             {
-                "name": "Support / Troubleshooting",
+                "name": "Security",
                 "title": "...",
                 "link": "#",
                 "children": [
                  
-                ]
-            },
-               {
-                "name": "Additional Resources ",
-                "title": "...",
-                "link": "#",
-                "children": [
-                   
                 ]
             }
             
