@@ -529,7 +529,8 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "Monitoring DDoS attacks with the Network Security Dashboard ( KB0060698 )", "title": "Learn how to navigate through the Network Security Dashboard", "link": "https://help.ovhcloud.com/csm/en-ie-network-security-dashboard?id=kb_article_view&sysparm_article=KB0060698"},
+                            {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                        {
@@ -554,14 +555,6 @@
                         "link": "#",
                         "children": [
                             {"name": "... (  )", "title": "...", "link": "..."}
-                        ]
-                    },            
-                    {
-                        "name": "Security ",
-                        "title": "...",
-                        "link": "#",
-                        "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                     {
