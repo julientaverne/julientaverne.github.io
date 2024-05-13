@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetchAndDisplay('data2.json', 'nestedListContainer2');
     fetchAndDisplay('data3.json', 'nestedListContainer3');
     fetchAndDisplay('data4.json', 'nestedListContainer4');
+    fetchAndDisplay('data5.json', 'nestedListContainer5');
 
      const expandButton = document.getElementById('expandAllButton');
     expandButton.addEventListener('click', function() {
@@ -48,6 +49,13 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (error) {
             console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer4'));")
         }
+
+        try {
+            expandAllNodes(document.getElementById('nestedListContainer5'));
+        } catch (error) {
+            console.log("ERROR: expandAllNodes(document.getElementById('nestedListContainer5'));")
+        }
+
 
         
         
