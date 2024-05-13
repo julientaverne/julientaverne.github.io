@@ -252,7 +252,8 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "Cancelling an Additional IP service ( KB0054512 )", "title": "Find out how to cancel an Additional IP service via the OVHcloud API", "link": "https://help.ovhcloud.com/csm/en-ie-network-additional-ip-cancel?id=kb_article_view&sysparm_article=KB0054512"},
+                            {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                        {
