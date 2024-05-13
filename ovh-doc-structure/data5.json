@@ -14,7 +14,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             
+                             {"name": "How to get started with a dedicated server (KB0043476)", "title": "Find out how to manage a dedicated server in the OVHcloud Control Panel and how to start with configuring and securing a server", "link": "https://help.ovhcloud.com/csm/en-ie-dedicated-servers-getting-started-dedicated-server?id=kb_article_view&sysparm_article=KB0043476"},
                         ]
                     },
                        {
