@@ -212,7 +212,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                        {
@@ -220,7 +220,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                     {
@@ -228,7 +228,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                          {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                     {
@@ -236,7 +235,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
+
                         ]
                     },            
                     {
@@ -244,7 +243,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                     {
@@ -252,8 +250,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "Cancelling an Additional IP service ( KB0054512 )", "title": "Find out how to cancel an Additional IP service via the OVHcloud API", "link": "https://help.ovhcloud.com/csm/en-ie-network-additional-ip-cancel?id=kb_article_view&sysparm_article=KB0054512"},
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "Cancelling an Additional IP service ( KB0054512 )", "title": "Find out how to cancel an Additional IP service via the OVHcloud API", "link": "https://help.ovhcloud.com/csm/en-ie-network-additional-ip-cancel?id=kb_article_view&sysparm_article=KB0054512"}
                         ]
                     },
                        {
@@ -261,7 +258,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                           {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     }
                 ]
@@ -276,7 +272,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                        {
@@ -284,7 +280,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                     {
@@ -292,7 +288,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                              {"name": "... (  )", "title": "...", "link": "..."}
+                              
                         ]
                     },
                     {
@@ -300,7 +296,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
+
                         ]
                     },            
                     {
@@ -308,7 +304,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                     {
@@ -316,7 +311,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                        {
@@ -324,7 +318,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                           {"name": "... (  )", "title": "...", "link": "..."}
+                           
                         ]
                     }
                 ]
@@ -339,7 +333,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                        {
@@ -347,8 +341,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "vRack Services - Exposing a Managed Service on your vRack ( KB0062698 )", "title": "Discover how to expose your managed service on the vRack using the vRack Services product and the Service Endpoint feature.", "link": "https://help.ovhcloud.com/csm/en-ie-network-vrack-services-global-concept?id=kb_article_view&sysparm_article=KB0062698"},
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "vRack Services - Exposing a Managed Service on your vRack ( KB0062698 )", "title": "Discover how to expose your managed service on the vRack using the vRack Services product and the Service Endpoint feature.", "link": "https://help.ovhcloud.com/csm/en-ie-network-vrack-services-global-concept?id=kb_article_view&sysparm_article=KB0062698"}
                         ]
                     },
                     {
@@ -356,7 +349,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                              {"name": "... (  )", "title": "...", "link": "..."}
+
                         ]
                     },
                     {
@@ -364,7 +357,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                            
                         ]
                     },            
                     {
@@ -372,7 +365,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                     {
@@ -380,7 +373,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                        {
@@ -388,7 +380,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                           {"name": "... (  )", "title": "...", "link": "..."}
+                           
                         ]
                     }
                 ]
@@ -421,7 +413,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                              {"name": "... (  )", "title": "...", "link": "..."}
+                              
                         ]
                     },
                     {
@@ -429,7 +421,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                            
                         ]
                     },            
                     {
@@ -437,7 +429,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                     {
@@ -454,7 +446,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                               {"name": "... (  )", "title": "...", "link": "..."}
+                               
                         ]
                     }
                 ]
@@ -469,7 +461,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                        {
@@ -477,8 +469,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "How to use the Bring Your Own IP feature ( KB0044851 )", "title": "Find out how to easily import your own IP as Additional IP to your OVHcloud account", "link": "https://help.ovhcloud.com/csm/en-ie-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044851"},
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                            {"name": "How to use the Bring Your Own IP feature ( KB0044851 )", "title": "Find out how to easily import your own IP as Additional IP to your OVHcloud account", "link": "https://help.ovhcloud.com/csm/en-ie-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044851"}
                         ]
                     },
                     {
@@ -486,7 +477,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                              {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                     {
@@ -494,7 +484,6 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },            
                     {
@@ -502,7 +491,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                     {
@@ -510,7 +499,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                        {
@@ -518,7 +507,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                               {"name": "... (  )", "title": "...", "link": "..."}
+                               
                         ]
                     }
                 ]
@@ -533,8 +522,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "Monitoring DDoS attacks with the Network Security Dashboard ( KB0060698 )", "title": "Learn how to navigate through the Network Security Dashboard", "link": "https://help.ovhcloud.com/csm/en-ie-network-security-dashboard?id=kb_article_view&sysparm_article=KB0060698"},
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "Monitoring DDoS attacks with the Network Security Dashboard ( KB0060698 )", "title": "Learn how to navigate through the Network Security Dashboard", "link": "https://help.ovhcloud.com/csm/en-ie-network-security-dashboard?id=kb_article_view&sysparm_article=KB0060698"}
                         ]
                     },
                        {
@@ -542,7 +530,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                            
                         ]
                     },
                     {
@@ -550,7 +538,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                              {"name": "... (  )", "title": "...", "link": "..."}
+                              
                         ]
                     },
                     {
@@ -558,7 +546,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                            {"name": "... (  )", "title": "...", "link": "..."}
+                            
                         ]
                     },
                     {
@@ -566,7 +554,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             
                         ]
                     },
                        {
@@ -574,7 +562,7 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                               {"name": "... (  )", "title": "...", "link": "..."}
+                               
                         ]
                     }
                 ]
