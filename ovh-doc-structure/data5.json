@@ -347,7 +347,8 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "vRack Services - Exposing a Managed Service on your vRack ( KB0062698 )", "title": "Discover how to expose your managed service on the vRack using the vRack Services product and the Service Endpoint feature.", "link": "https://help.ovhcloud.com/csm/en-ie-network-vrack-services-global-concept?id=kb_article_view&sysparm_article=KB0062698"},
+                            {"name": "... (  )", "title": "...", "link": "..."}
                         ]
                     },
                     {
