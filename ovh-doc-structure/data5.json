@@ -403,7 +403,8 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "Installation of OVHcloud Connect Direct from the OVHcloud Control Panel ( KB0045228 )", "title": "Find out how to set up your OVHcloud Connect Direct solution via the OVHcloud Control Panel", "link": "https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-occ-direct-control-panel-setup?id=kb_article_view&sysparm_article=KB0045228"},
+                            {"name": "Installation of OVHcloud Connect Provider from the OVHcloud Control Panel ( KB0045276 )", "title": "Find out how to set up your OVHcloud Connect Provider solution via the OVHcloud Control Panel", "link": "https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-provider-control-panel-setup?id=kb_article_view&sysparm_article=KB0045276"}
                         ]
                     },
                        {
@@ -411,7 +412,8 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "Configuration of OVHcloud Connect using OVHcloud APIv6 ( KB0045233 )", "title": "Find out how to set up OVHcloud Connect using OVHcloud APIv6", "link": "https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-api?id=kb_article_view&sysparm_article=KB0045233"},
+                                     {"name": "Technical capabilities and limitations ( KB0045257 )", "title": "Learn the technical capabilities and limitations of the OVHcloud Connect solution", "link": "https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-limits?id=kb_article_view&sysparm_article=KB0045257"}
                         ]
                     },
                     {
@@ -443,7 +445,8 @@
                         "title": "...",
                         "link": "#",
                         "children": [
-                             {"name": "... (  )", "title": "...", "link": "..."}
+                             {"name": "FAQ OVHcloud Connect ( KB0045283 )", "title": "...", "link": "https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-faq?id=kb_article_view&sysparm_article=KB0045283"},
+                            {"name": "Troubleshooting common errors setting up OVHcloud Connect ( KB0045275 )", "title": "Find out how to resolve the most common errors associated with setting up OVHcloud Connect", "link": "https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-troubleshooting?id=kb_article_view&sysparm_article=KB0045275"}
                         ]
                     },
                        {
