@@ -1,1 +1,0 @@
-il est à noter que le type de l'article, situé dans les autres univers potentiels, n'est pas forcément et systématiquement du même type entre eux et surtout du même type que celui dans l'univers principal
