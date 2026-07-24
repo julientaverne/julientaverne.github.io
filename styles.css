@@ -337,8 +337,9 @@ svg {
 .section-heading h2 em { font-family: var(--serif); font-weight: 400; }
 .section-heading > p { align-self: end; margin: 0; font-size: 1rem; line-height: 1.45; }
 
-.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.service { position: relative; min-height: 17rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 2rem; transition: background 180ms ease, color 180ms ease; }
+.services-grid { display: grid; grid-template-columns: repeat(6, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.service { position: relative; min-height: 17rem; grid-column: span 2; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 2rem; transition: background 180ms ease, color 180ms ease; }
+.service:nth-last-child(-n + 4) { grid-column: span 3; }
 .service:hover { background: var(--red); color: var(--ink); }
 .service__number { color: var(--red); font-size: 1.15rem; font-weight: 800; }
 .service:hover .service__number { color: var(--ink); }
@@ -508,7 +509,8 @@ svg {
   .section-heading { grid-template-columns: 5rem 1fr; }
   .section-heading > p { grid-column: 1 / -1; margin-top: 1.5rem; }
   .services-grid { grid-template-columns: 1fr; }
-  .service { min-height: 14rem; }
+  .service,
+  .service:nth-last-child(-n + 4) { min-height: 14rem; grid-column: auto; }
   .skills__heading { grid-template-columns: 1fr; }
   .skills__number { font-size: 8rem; }
   .skill-list { grid-template-columns: repeat(2, 1fr); }

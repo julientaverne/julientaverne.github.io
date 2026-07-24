@@ -18,7 +18,7 @@ window.PROFILE_DATA = {
       "label": "Années d'Expériences"
     },
     {
-      "value": 9,
+      "value": 10,
       "label": "Services"
     },
     {
@@ -90,6 +90,12 @@ window.PROFILE_DATA = {
       "icon": "fas fa-thumbs-up fa-fw",
       "title": "AUDIT",
       "description": "Pilotage et/ou réalisation d'audits d'applications, de codes, d'organisations."
+    },
+    {
+      "index": 10,
+      "icon": "fas fa-book-open fa-fw",
+      "title": "DOCUMENTATION TECHNIQUE",
+      "description": "Conception, structuration et maintenance de documentations techniques, guides utilisateurs, tutoriels et contenus API. Simplification de sujets complexes, coordination avec les équipes produit, développement et support, et diffusion des bonnes pratiques rédactionnelles."
     }
   ],
   "skills": [
