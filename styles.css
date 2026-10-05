@@ -859,6 +859,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
+@media (max-width: 1400px) and (min-width: 961px) {
+  .hero__actions { gap: 1rem; }
+  .hero .button { font-size: 0.95rem; }
+  .hero .button--primary { min-width: 17.5rem; }
+  .hero .button--secondary { min-width: 13rem; }
+}
+
 @media (max-width: 1180px) {
   .site-header { grid-template-columns: 1fr auto auto; }
   .navigation { gap: 1rem; padding-inline: 1.25rem; }
