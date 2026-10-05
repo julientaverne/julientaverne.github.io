@@ -1,6 +1,12 @@
-# Portfolio de Julien Taverne
+# Site professionnel de Julien Taverne
 
-Site statique prêt pour GitHub Pages. Aucune installation et aucune compilation ne sont nécessaires.
+Site statique de conseil IT prêt pour GitHub Pages. Aucune installation et aucune compilation ne sont nécessaires.
+
+Le site présente trois gammes d’offres :
+
+- modernisation des systèmes d’information ;
+- compétences et autonomie des équipes IT ;
+- pilotage technique des projets et prestataires.
 
 ## Publication
 
@@ -12,19 +18,14 @@ Site statique prêt pour GitHub Pages. Aucune installation et aucune compilation
 ## Référencement
 
 Le site comprend les métadonnées SEO et sociales, les données structurées `ProfilePage`,
-un contenu de secours indexable sans JavaScript, ainsi qu’un fichier `robots.txt`.
+un contenu entièrement lisible sans JavaScript, une structure sémantique et un fichier `robots.txt`.
 
-Une fois l’adresse publique GitHub Pages connue, ajoutez cette URL absolue :
-
-1. dans une balise `<link rel="canonical" href="URL_PUBLIQUE" />` dans le `<head>` ;
-2. dans les propriétés Open Graph `og:url` et `og:image` ;
-3. dans un fichier `sitemap.xml`, puis déclarez ce sitemap dans Google Search Console.
-
-N’utilisez pas une URL supposée : l’URL canonique doit être exactement celle qui sera
-ouverte par les visiteurs.
+L’URL canonique, les métadonnées Open Graph et le sitemap sont configurés pour
+`https://jtaverne.online/`. Le fichier `CNAME` conserve ce domaine personnalisé lors
+du déploiement GitHub Pages.
 
 ## Formulaire de contact
 
 Le formulaire envoie les messages via Formspree avec l’identifiant `xzdnjrza`. Aucun serveur applicatif n’est nécessaire : il fonctionne directement depuis GitHub Pages.
 
-Les contenus détaillés (compétences, missions, entreprises et témoignages) se trouvent dans `profile-data.js`. La structure générale est dans `index.html` et les couleurs principales au début de `styles.css`.
+La structure et les contenus se trouvent dans `index.html`, la direction visuelle dans `styles.css` et les interactions dans `script.js`.
