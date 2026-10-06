@@ -21,7 +21,7 @@
     <title>Julien Taverne | Conseil IT indépendant</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preload" href="assets/portrait-hero-professional.jpg" as="image" type="image/jpeg" fetchpriority="high" />
-    <link rel="stylesheet" href="styles.css?v=23" />
+    <link rel="stylesheet" href="styles.css?v=24" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -39,15 +39,15 @@
         }
       }
     </script>
-    <script src="script.js?v=19" defer></script>
+    <script src="script.js?v=20" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
     <header class="site-header" data-header>
-      <a class="brand" href="#accueil" aria-label="Retour à l’accueil"><strong>Julien Taverne</strong><span>Conseil IT indépendant</span></a>
+      <a class="brand" href="#accueil" aria-label="Retour à l’accueil"><strong>Julien Taverne</strong><span>Conseil en systèmes d’information<br />Pour les entreprises qui avancent</span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span>Menu</span><span class="menu-toggle__icon" aria-hidden="true"></span></button>
-      <nav class="navigation" id="navigation" aria-label="Navigation principale"><a href="#enjeux">Vos enjeux</a><a href="#offres">Offres</a><a href="#methode">Méthode</a><a href="#resultats">Résultats</a><a href="#a-propos">À propos</a></nav>
-      <a class="header-contact" href="#contact">Me contacter</a>
+      <nav class="navigation" id="navigation" aria-label="Navigation principale"><a href="#accueil">Accueil</a><a href="#offres">Offres</a><a href="#methode">Méthode</a><a href="#a-propos">À propos</a></nav>
+      <a class="header-contact" href="#contact">Échanger</a>
     </header>
 
     <main id="contenu">
@@ -73,36 +73,38 @@
         </div>
       </section>
 
-      <section class="offers section-shell" id="offres" aria-labelledby="offers-title">
-        <header class="offers__heading reveal"><div><span class="section-label">Offres</span><h2 id="offers-title">Trois leviers pour reprendre la maîtrise.</h2></div><p>Chaque gamme peut être engagée séparément. Toutes suivent la même progression : comprendre, remettre sous contrôle, maintenir la maîtrise.</p></header>
+      <section class="offers" id="offres" aria-labelledby="offers-title">
+        <header class="offers__heading reveal">
+          <div class="offers__intro"><span class="section-label">Des résultats concrets, à votre rythme</span><h2 id="offers-title">Trois leviers pour reprendre la maîtrise.</h2><p>Chaque gamme peut être engagée séparément. Toutes suivent la même progression&nbsp;:<br />comprendre, remettre sous contrôle, maintenir la maîtrise.</p></div>
+          <aside class="offers__promise" aria-label="Promesse des offres"><p>Des offres concrètes<br />pour des enjeux réels.</p><span aria-hidden="true"></span><small>Du diagnostic<br />à un impact durable</small></aside>
+        </header>
         <div class="offer-grid">
           <article class="offer-range reveal" id="modernisation">
             <header><span>01</span><h3>Modernisation des SI</h3><p>Applications, flux et architecture.</p></header>
-            <div class="offer-level"><span>Essentiel</span><h4>Diagnostic SI Commerce</h4><strong>3 500 € HT</strong><small>Livraison sous 2 semaines</small><details><summary>Voir le périmètre</summary><p>Un parcours métier critique, jusqu’à 5 applications et 10 interfaces. Cartographie, registre des risques et feuille de route à 30, 60 et 90 jours.</p></details></div>
-            <div class="offer-level"><span>Avancé</span><h4>Sécurisation d’un chantier critique</h4><strong>12 000 € HT</strong><small>4 à 6 semaines</small><details><summary>Voir le périmètre</summary><p>Architecture cible, ateliers d’arbitrage, contrats d’interface, supervision, tests, retour arrière, plan de bascule et revue d’un premier incrément.</p></details></div>
-            <div class="offer-level"><span>Récurrent</span><h4>Architecture &amp; fiabilité en continu</h4><strong>2 400 € HT / mois</strong><small>Engagement initial de 3 mois</small><details><summary>Voir le périmètre</summary><p>Comité technique, deux revues ciblées, suivi des risques et décisions, trois indicateurs et note mensuelle de pilotage.</p></details></div>
-            <a class="offer-range__cta" href="#contact">Parler de votre SI <span>→</span></a>
+            <div class="offer-level"><span>Essentiel</span><div><h4>Diagnostic SI Commerce</h4><strong>3 500 € HT</strong></div></div>
+            <div class="offer-level"><span>Avancé</span><div><h4>Sécurisation d’un chantier<br />critique</h4><strong>12 000 € HT</strong></div></div>
+            <div class="offer-level"><span>Récurrent</span><div><h4>Architecture &amp; fiabilité<br />en continu</h4><strong>2 400 € HT / mois</strong></div></div>
+            <a class="offer-range__cta" href="#contact"><span>Découvrir la gamme</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" /></svg></a>
           </article>
           <article class="offer-range offer-range--dark reveal" id="autonomie">
             <header><span>02</span><h3>Compétences &amp; autonomie des équipes IT</h3><p>Compétences, transmission et relais.</p></header>
-            <div class="offer-level"><span>Essentiel</span><h4>Visibilité compétences IT</h4><strong>4 500 € HT</strong><small>1 équipe · jusqu’à 12 personnes · 3 semaines</small><details><summary>Voir le périmètre</summary><p>Référentiel ciblé, autoévaluation, calibration, matrices de compétences et polyvalence, dépendances critiques et plan d’action à 3 mois.</p></details></div>
-            <div class="offer-level"><span>Avancé</span><h4>Compétences &amp; polyvalence en action</h4><strong>14 000 € HT</strong><small>Jusqu’à 25 personnes · 8 à 10 semaines</small><details><summary>Voir le périmètre</summary><p>Référentiels métiers, parcours de progression, binômes de transmission, ateliers, reconnaissance des acquis, pilote et formation des managers.</p></details></div>
-            <div class="offer-level"><span>Récurrent</span><h4>Pilotage des compétences IT</h4><strong>2 500 € HT / mois</strong><small>Engagement initial de 3 mois</small><details><summary>Voir le périmètre</summary><p>Comité de pilotage, accompagnement des managers, atelier collectif, actualisation des matrices et revue des besoins de recrutement et de formation.</p></details></div>
-            <a class="offer-range__cta" href="#contact">Parler de vos équipes <span>→</span></a>
+            <div class="offer-level"><span>Essentiel</span><div><h4>Visibilité compétences IT</h4><strong>4 500 € HT</strong></div></div>
+            <div class="offer-level"><span>Avancé</span><div><h4>Compétences &amp; polyvalence<br />en action</h4><strong>14 000 € HT</strong></div></div>
+            <div class="offer-level"><span>Récurrent</span><div><h4>Pilotage des compétences IT</h4><strong>2 500 € HT / mois</strong></div></div>
+            <a class="offer-range__cta" href="#contact"><span>Découvrir la gamme</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" /></svg></a>
           </article>
           <article class="offer-range reveal" id="pilotage">
             <header><span>03</span><h3>Pilotage technique des projets &amp; prestataires</h3><p>Responsabilités, décisions et livraisons.</p></header>
-            <div class="offer-level"><span>Essentiel</span><h4>Diagnostic de maîtrise projet</h4><strong>4 500 € HT</strong><small>1 projet · jusqu’à 3 prestataires · 2 à 3 semaines</small><details><summary>Voir le périmètre</summary><p>Entretiens, revue documentaire, cartographie des responsabilités, analyse des blocages, revue technique ciblée et plan d’action à 30 jours.</p></details></div>
-            <div class="offer-level"><span>Avancé</span><h4>Remise sous contrôle du projet</h4><strong>13 500 € HT</strong><small>1 projet · 6 à 8 semaines</small><details><summary>Voir le périmètre</summary><p>Clarification du jalon, responsabilités, suivi des risques et décisions, coordination, revues techniques et préparation du passage en exploitation.</p></details></div>
-            <div class="offer-level"><span>Récurrent</span><h4>Référent technique côté client</h4><strong>3 000 € HT / mois</strong><small>1 projet · jusqu’à 3 prestataires</small><details><summary>Voir le périmètre</summary><p>Coordination, comité de pilotage, revues de propositions et livrables, suivi des engagements et synthèse mensuelle pour la direction.</p></details></div>
-            <a class="offer-range__cta" href="#contact">Parler de votre projet <span>→</span></a>
+            <div class="offer-level"><span>Essentiel</span><div><h4>Diagnostic de maîtrise projet</h4><strong>4 500 € HT</strong></div></div>
+            <div class="offer-level"><span>Avancé</span><div><h4>Remise sous contrôle du projet</h4><strong>13 500 € HT</strong></div></div>
+            <div class="offer-level"><span>Récurrent</span><div><h4>Référent technique côté client</h4><strong>3 000 € HT / mois</strong></div></div>
+            <a class="offer-range__cta" href="#contact"><span>Découvrir la gamme</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" /></svg></a>
           </article>
         </div>
-        <p class="offers__note">Tarifs indicatifs HT pour les périmètres standards présentés. Le cadre exact est confirmé après un échange de qualification.</p>
       </section>
 
       <section class="method section-shell" id="methode" aria-labelledby="method-title">
-        <header class="method__heading reveal"><div><span class="section-label">Méthode</span><h2 id="method-title">Une méthode pour passer <em>du constat à la maîtrise.</em></h2></div><p>Un regard indépendant, des décisions argumentées et des livrables directement utilisables.</p></header>
+        <header class="method__heading reveal"><div><span class="section-label">Et ensuite&nbsp;?</span><h2 id="method-title">Une méthode au service de résultats durables.</h2></div><aside><span>De l’expertise<br />à la mise en œuvre</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" /></svg></aside></header>
         <ol class="method-list">
           <li class="reveal"><span>01</span><h3>Comprendre</h3><p>Contexte, irritants, dépendances et objectifs.</p><small>Écouter pour aligner</small></li>
           <li class="reveal"><span>02</span><h3>Évaluer</h3><p>Architecture, applications, flux, organisation et pilotage.</p><small>Objectiver pour éclairer</small></li>

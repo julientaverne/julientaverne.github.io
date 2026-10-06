@@ -29,6 +29,29 @@ if (menuToggle && navigation) {
   });
 }
 
+const navigationLinks = [...document.querySelectorAll(".navigation a[href^='#']")];
+const navigationSections = navigationLinks
+  .map((link) => document.querySelector(link.getAttribute("href")))
+  .filter(Boolean);
+
+function setActiveNavigation(sectionId) {
+  navigationLinks.forEach((link) => {
+    const isActive = link.getAttribute("href") === `#${sectionId}`;
+    if (isActive) link.setAttribute("aria-current", "true");
+    else link.removeAttribute("aria-current");
+  });
+}
+
+if (navigationSections.length && "IntersectionObserver" in window) {
+  const navigationObserver = new IntersectionObserver((entries) => {
+    const activeEntry = entries.find((entry) => entry.isIntersecting);
+    if (activeEntry) setActiveNavigation(activeEntry.target.id);
+  }, { rootMargin: "-18% 0px -72%", threshold: 0 });
+
+  navigationSections.forEach((section) => navigationObserver.observe(section));
+  setActiveNavigation(location.hash.slice(1) || "accueil");
+}
+
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealItems = document.querySelectorAll(".reveal");
 
@@ -45,16 +68,6 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
 
   revealItems.forEach((item) => observer.observe(item));
 }
-
-document.querySelectorAll(".offer-range").forEach((range) => {
-  range.addEventListener("toggle", (event) => {
-    const opened = event.target;
-    if (!(opened instanceof HTMLDetailsElement) || !opened.open) return;
-    range.querySelectorAll("details[open]").forEach((details) => {
-      if (details !== opened) details.open = false;
-    });
-  }, true);
-});
 
 const contactForm = document.querySelector("[data-contact-form]");
 const contactStatus = document.querySelector("[data-contact-status]");
