@@ -123,7 +123,7 @@ if (contactForm && contactStatus && contactSubmit && contactSubmitLabel) {
   });
 }
 
-const offerDialogTriggers = [...document.querySelectorAll("[data-offer-dialog]")];
+const offerDialogTriggers = [...document.querySelectorAll("[data-modal-dialog]")];
 const offerDialogs = [...document.querySelectorAll(".offer-dialog")];
 let activeDialogTrigger = null;
 let restoreDialogFocus = true;
@@ -139,7 +139,7 @@ function closeOfferDialog(dialog) {
 }
 
 offerDialogTriggers.forEach((trigger) => {
-  const dialogId = trigger.dataset.offerDialog;
+  const dialogId = trigger.dataset.modalDialog;
   const dialog = document.getElementById(dialogId);
   if (!dialog) return;
 
@@ -172,6 +172,11 @@ offerDialogs.forEach((dialog) => {
 
   dialog.querySelectorAll("[data-dialog-contact]").forEach((link) => {
     link.addEventListener("click", () => {
+      const contactNeed = contactForm?.elements.namedItem("need");
+      if (contactNeed instanceof HTMLSelectElement && link.dataset.contactNeed) {
+        contactNeed.value = link.dataset.contactNeed;
+        contactNeed.dispatchEvent(new Event("change", { bubbles: true }));
+      }
       restoreDialogFocus = false;
       closeOfferDialog(dialog);
     });

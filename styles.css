@@ -1053,10 +1053,11 @@ body.modal-open { overflow: hidden; }
 }
 
 .case p { max-width: 34rem; margin: 0; color: var(--paper); font-family: var(--serif); font-size: 1rem; line-height: 1.22; }
-.case a { display: flex; width: max-content; align-items: center; gap: 0.65rem; margin-top: auto; color: var(--blue); font-size: 0.66rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
-.case a b { width: 2.35rem; height: 2px; margin-right: 0.8rem; background: var(--red); }
-.case a svg { width: 1rem; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
-.case a:hover { color: var(--paper); }
+.case__cta { display: flex; width: max-content; align-items: center; gap: 0.65rem; margin-top: auto; padding: 0; border: 0; background: transparent; color: var(--blue); cursor: pointer; font-family: var(--sans); font-size: 0.66rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
+.case__cta b { width: 2.35rem; height: 2px; margin-right: 0.8rem; background: var(--red); }
+.case__cta svg { width: 1rem; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
+.case__cta:hover { color: var(--paper); }
+.case__cta:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
 
 .references {
   overflow: hidden;
