@@ -123,6 +123,76 @@ if (contactForm && contactStatus && contactSubmit && contactSubmitLabel) {
   });
 }
 
+const offerDialogTriggers = [...document.querySelectorAll("[data-offer-dialog]")];
+const offerDialogs = [...document.querySelectorAll(".offer-dialog")];
+let activeDialogTrigger = null;
+let restoreDialogFocus = true;
+
+function closeOfferDialog(dialog) {
+  if (!dialog?.hasAttribute("open")) return;
+  if (typeof dialog.close === "function") {
+    dialog.close();
+    return;
+  }
+  dialog.removeAttribute("open");
+  dialog.dispatchEvent(new Event("close"));
+}
+
+offerDialogTriggers.forEach((trigger) => {
+  const dialogId = trigger.dataset.offerDialog;
+  const dialog = document.getElementById(dialogId);
+  if (!dialog) return;
+
+  trigger.setAttribute("aria-controls", dialogId);
+  trigger.addEventListener("click", () => {
+    activeDialogTrigger = trigger;
+    restoreDialogFocus = true;
+    document.body.classList.add("modal-open");
+    if (typeof dialog.showModal === "function") {
+      dialog.showModal();
+    } else {
+      dialog.classList.add("is-fallback");
+      dialog.setAttribute("role", "dialog");
+      dialog.setAttribute("aria-modal", "true");
+      dialog.setAttribute("open", "");
+      dialog.querySelector("[data-dialog-close]")?.focus();
+    }
+    refreshBackToTop();
+  });
+});
+
+offerDialogs.forEach((dialog) => {
+  dialog.querySelectorAll("[data-dialog-close]").forEach((button) => {
+    button.addEventListener("click", () => closeOfferDialog(dialog));
+  });
+
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) closeOfferDialog(dialog);
+  });
+
+  dialog.querySelectorAll("[data-dialog-contact]").forEach((link) => {
+    link.addEventListener("click", () => {
+      restoreDialogFocus = false;
+      closeOfferDialog(dialog);
+    });
+  });
+
+  dialog.addEventListener("close", () => {
+    document.body.classList.remove("modal-open");
+    dialog.classList.remove("is-fallback");
+    refreshBackToTop();
+    if (restoreDialogFocus) activeDialogTrigger?.focus();
+    activeDialogTrigger = null;
+    restoreDialogFocus = true;
+  });
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  const openFallbackDialog = document.querySelector(".offer-dialog.is-fallback[open]");
+  if (openFallbackDialog) closeOfferDialog(openFallbackDialog);
+});
+
 document.querySelectorAll("[data-year]").forEach((item) => {
   item.textContent = String(new Date().getFullYear());
 });
@@ -132,6 +202,7 @@ const backToTop = document.querySelector("[data-back-to-top]");
 if (backToTop) {
   refreshBackToTop = () => {
     const shouldShow = !document.body.classList.contains("menu-locked")
+      && !document.body.classList.contains("modal-open")
       && window.scrollY > Math.max(640, window.innerHeight * 0.75);
     backToTop.classList.toggle("is-visible", shouldShow);
     backToTop.setAttribute("aria-hidden", String(!shouldShow));
