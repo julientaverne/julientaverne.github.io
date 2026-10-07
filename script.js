@@ -69,6 +69,25 @@ if (navigationSections.length) {
 }
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const caseToggle = document.querySelector("[data-case-toggle]");
+const extraCases = [...document.querySelectorAll(".case--extra")];
+
+if (caseToggle && extraCases.length) {
+  const label = caseToggle.querySelector("[data-case-toggle-label]");
+  const count = document.querySelector("[data-case-count]");
+  caseToggle.addEventListener("click", () => {
+    const expanded = caseToggle.getAttribute("aria-expanded") !== "true";
+    caseToggle.setAttribute("aria-expanded", String(expanded));
+    extraCases.forEach((item) => { item.hidden = !expanded; });
+    if (label) label.textContent = expanded
+      ? "Revenir aux 4 réalisations"
+      : "Afficher les 9 autres réalisations";
+    if (count) count.textContent = `${expanded ? 13 : 4} réalisations sur 13`;
+    // Keep the control in view after removing the supplementary rows.
+    if (!expanded) caseToggle.scrollIntoView({ block: "center", behavior: reducedMotion ? "auto" : "smooth" });
+  });
+}
+
 const revealItems = document.querySelectorAll(".reveal");
 
 if (reducedMotion || !("IntersectionObserver" in window)) {
