@@ -1562,6 +1562,7 @@ body.modal-open { overflow: hidden; }
     transition: opacity 180ms ease, transform 180ms ease, visibility 180ms;
   }
   .navigation.is-open { visibility: visible; opacity: 1; transform: translateY(0); }
+  .navigation { overflow-y: auto; }
   .navigation a { width: 100%; padding: 1rem 0; border-bottom: 1px solid rgba(244, 241, 234, 0.35); font-size: 1.5rem; }
   .navigation a::after { bottom: 0; }
 
