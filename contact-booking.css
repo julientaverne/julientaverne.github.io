@@ -1,0 +1,21 @@
+.contact-booking { grid-column: 1 / -1; margin-bottom: 2.5rem; border: 1px solid rgba(255,255,255,.8); }
+.contact-booking summary { display:flex; align-items:center; justify-content:space-between; gap:1.5rem; padding:1.5rem; cursor:pointer; list-style:none; }
+.contact-booking summary::-webkit-details-marker { display:none; }
+.contact-booking summary strong { display:block; font-size:clamp(1.4rem,2.2vw,2rem); }
+.contact-booking summary small { display:block; margin-top:.6rem; line-height:1.5; font-size:.9rem; }
+.contact-booking__action { display:flex; align-items:center; gap:1rem; flex-shrink:0; background:var(--ink); color:#fff; padding:1rem 1.25rem; font-weight:700; }
+.contact-booking summary:hover .contact-booking__action { background:var(--blue); }
+.contact-booking[open] .contact-booking__action > span { transform:rotate(45deg); }
+.contact-booking__body { padding:0 1.5rem 1.5rem; }
+.contact-booking__body > p { font-size:.95rem; line-height:1.5; }
+.contact-booking__calendar { width:100%; height:740px; background:#fff; }
+.contact-booking__calendar[hidden] { display:none; }
+.contact-booking__fallback a { text-decoration:underline; text-underline-offset:4px; }
+@media(max-width:680px) {
+  .contact-booking { margin-bottom:0; }
+  .contact-booking summary { flex-direction:column; align-items:stretch; padding:1rem; }
+  .contact-booking__action { justify-content:space-between; }
+  .contact-booking__body { padding:0 .5rem 1rem; }
+  .contact-booking__body > p { padding:0 .5rem; }
+  .contact-booking__calendar { height:850px; }
+}

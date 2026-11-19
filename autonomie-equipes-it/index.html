@@ -20,6 +20,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="../styles.css?v=36" />
+    <link rel="stylesheet" href="../contact-booking.css?v=1" />
+    <script src="../contact-booking.js?v=1" defer></script>
     <link rel="stylesheet" href="../offres.css?v=1" />
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"Service","name":"Compétences et autonomie des équipes IT","description":"Diagnostic des compétences IT, développement de la polyvalence et pilotage récurrent de la transmission et des relais dans les équipes.","provider":{"@type":"Person","name":"Julien Taverne","url":"https://jtaverne.online/"},"url":"https://jtaverne.online/autonomie-equipes-it/","areaServed":{"@type":"Country","name":"France"},"inLanguage":"fr-FR"}
@@ -54,14 +56,23 @@
       <div class="offer-page__decision"><p>Un premier échange permet de choisir un périmètre pertinent et un rythme de transmission adapté à votre équipe.</p><a class="button button--primary" href="#contact">Parlons de votre équipe</a></div>
       <section class="offer-page__related" aria-labelledby="related-title"><span class="offer-page__section-label">Les autres gammes</span><h2 id="related-title">L’autonomie s’appuie aussi sur des systèmes fiables et des projets maîtrisés.</h2><nav class="offer-page__related-list" aria-label="Autres gammes d’offres"><a href="../modernisation-si/"><span>01 · Systèmes d’information</span><strong>Modernisation des SI</strong><small>Découvrir la gamme →</small></a><a href="../pilotage-projets-prestataires/"><span>03 · Projets IT</span><strong>Pilotage technique des projets &amp; prestataires</strong><small>Découvrir la gamme →</small></a></nav></section>
 
-      <section class="contact" id="contact" aria-labelledby="contact-title"><div class="contact__intro reveal"><div class="contact__label"><span>Contact</span><i aria-hidden="true"></i></div><h2 id="contact-title">Parlons de l’autonomie de vos équipes IT.</h2><p>Expliquez votre organisation et les dépendances que vous souhaitez réduire. Nous pourrons choisir ensemble le format le plus utile.</p><ul><li>Rendre les compétences visibles</li><li>Organiser la transmission</li><li>Développer des relais durables</li></ul></div>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <details class="contact-booking" data-booking>
+          <summary><span><strong>Réserver un échange</strong><small>30 minutes · Google Meet · Enjeux et projets informatiques</small></span><span class="contact-booking__action">Choisir un créneau <span aria-hidden="true">＋</span></span></summary>
+          <div class="contact-booking__body">
+            <p>Choisissez un créneau pour échanger sur votre contexte et vos priorités. Le calendrier est fourni par Calendly.</p>
+            <div class="contact-booking__calendar" data-booking-calendar></div>
+            <p class="contact-booking__fallback"><span data-booking-status role="status"></span><a href="https://calendly.com/alliancia-solutions/echange-avec-julien" target="_blank" rel="noopener noreferrer">Ouvrir la réservation sur Calendly <span aria-hidden="true">↗</span></a></p>
+          </div>
+        </details>
+<div class="contact__intro reveal"><div class="contact__label"><span>Contact</span><i aria-hidden="true"></i></div><h2 id="contact-title">Parlons de l’autonomie de vos équipes IT.</h2><p>Expliquez votre organisation et les dépendances que vous souhaitez réduire. Nous pourrons choisir ensemble le format le plus utile.</p><ul><li>Rendre les compétences visibles</li><li>Organiser la transmission</li><li>Développer des relais durables</li></ul></div>
         <form class="contact-form reveal" action="https://formspree.io/f/xzdnjrza" method="POST" data-contact-form><div class="contact-form__heading">Échangeons sur vos enjeux</div>
           <label><span>Nom et prénom *</span><input type="text" name="name" autocomplete="name" placeholder="Votre nom et prénom" required /></label><label><span>Entreprise</span><input type="text" name="company" autocomplete="organization" placeholder="Votre entreprise" /></label>
           <label><span>Adresse e-mail *</span><input type="email" name="email" autocomplete="email" placeholder="votre@email.com" required /></label><label><span>Téléphone</span><input type="tel" name="phone" autocomplete="tel" placeholder="Votre numéro" /></label>
           <p class="contact-form__topic"><strong>Sujet de votre demande</strong>Développer l’autonomie de mes équipes</p><input type="hidden" name="need" value="Développer l’autonomie de mes équipes" />
           <label class="contact-form__full"><span>Message *</span><textarea name="message" rows="5" placeholder="Décrivez votre contexte, vos enjeux ou vos questions…" required></textarea></label>
           <input type="hidden" name="subject" value="Demande Autonomie des équipes IT — {{ name }}" /><label class="contact-form__trap" aria-hidden="true">Ne pas remplir<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></label>
-          <p class="contact-form__status" role="status" aria-live="polite" data-contact-status>Vos informations restent confidentielles et ne seront utilisées que pour répondre à votre demande.</p><button type="submit" data-contact-submit><span data-contact-submit-label>Planifier un échange</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" /></svg></button>
+          <p class="contact-form__status" role="status" aria-live="polite" data-contact-status>Vos informations restent confidentielles et ne seront utilisées que pour répondre à votre demande.</p><button type="submit" data-contact-submit><span data-contact-submit-label>Envoyer mon message</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" /></svg></button>
         </form>
       </section>
     </main>
